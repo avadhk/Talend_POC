@@ -71,7 +71,51 @@
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="FCPWEB" xmi:id="_ouOFNln2Ee2LkplUhNyjEQ"/>
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="FIMSMGR" xmi:id="_ouOFN1n2Ee2LkplUhNyjEQ"/>
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="FINTEM" xmi:id="_ouOFOFn2Ee2LkplUhNyjEQ"/>
-  <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="GENERAL" xmi:id="_ouOFOVn2Ee2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="GENERAL" xmi:id="_ouOFOVn2Ee2LkplUhNyjEQ">
+    <ownedElement comment="Supplemental Data Attribute Values table." id="_ecLCEFolEe2gksj6OuOfGg" label="GORSDAV" name="GORSDAV" tableType="TABLE" xmi:id="_ecMQMFolEe2gksj6OuOfGg" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Supplemental Data Attribute Values table." xmi:id="_ecMQMVolEe2gksj6OuOfGg"/>
+      <feature comment="Table Name: The name of the table supplemented by the attribute." key="true" label="GORSDAV_TABLE_NAME" length="30" name="GORSDAV_TABLE_NAME" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQMlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Table Name: The name of the table supplemented by the attribute." xmi:id="_ecMQM1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQNFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ecMQNVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Attribute Name: The name of the attribute." key="true" label="GORSDAV_ATTR_NAME" length="30" name="GORSDAV_ATTR_NAME" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQNlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Attribute Name: The name of the attribute." xmi:id="_ecMQN1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQOFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ecMQOVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Discriminator: The discriminator value for multiple valued attributes." key="true" label="GORSDAV_DISC" length="64" name="GORSDAV_DISC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQOlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Discriminator: The discriminator value for multiple valued attributes." xmi:id="_ecMQO1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQPFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ecMQPVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Primary Key Parent Table: The Primary key of of the record in the Parent table." key="true" label="GORSDAV_PK_PARENTTAB" length="512" name="GORSDAV_PK_PARENTTAB" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQPlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Primary Key Parent Table: The Primary key of of the record in the Parent table." xmi:id="_ecMQP1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQQFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ecMQQVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Value: The Attribute Value (of type ANYTYPE: can be any data type)." label="GORSDAV_VALUE" length="3752" name="GORSDAV_VALUE" nullable="false" sourceType="ANYDATA" talendType="id_String" xmi:id="_ecMQQlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Value: The Attribute Value (of type ANYTYPE: can be any data type)." xmi:id="_ecMQQ1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQRFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1111" name="ANYDATA" numericPrecisionRadix="10" xmi:id="_ecMQRVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="ACTIVITY DATE: The date that the information for the row was inserted or updated in the GORSDAV table." label="GORSDAV_ACTIVITY_DATE" length="7" name="GORSDAV_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ecMQRlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ACTIVITY DATE: The date that the information for the row was inserted or updated in the GORSDAV table." xmi:id="_ecMQR1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQSFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_ecMQSVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="USER IDENTIFICATION: The unique identification of the user." label="GORSDAV_USER_ID" length="30" name="GORSDAV_USER_ID" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQSlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="USER IDENTIFICATION: The unique identification of the user." xmi:id="_ecMQS1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQTFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ecMQTVolEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="DATA ORIGIN: Source system that created or updated the row." label="GORSDAV_DATA_ORIGIN" length="30" name="GORSDAV_DATA_ORIGIN" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ecMQTlolEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="DATA ORIGIN: Source system that created or updated the row." xmi:id="_ecMQT1olEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ecMQUFolEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ecMQUVolEe2gksj6OuOfGg"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="GGADMIN" xmi:id="_ouOFOln2Ee2LkplUhNyjEQ"/>
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="GGSYS" xmi:id="_ouOFO1n2Ee2LkplUhNyjEQ"/>
   <orgomg.cwm.resource.relational:Schema dataManager="_TODhsFlSEe2LkplUhNyjEQ" name="GIBSONC" xmi:id="_ouOFPFn2Ee2LkplUhNyjEQ"/>
@@ -714,13 +758,13 @@
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_69a3372a-5b7a-472e-926b-93d4660ee75c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Zk0VwQuOKzFV97yijvqNwbpt7m7GkgR5Dovzf/Aiy4E4ZR9zJ6UY+HkbYcOb+lgKb5CUaXclKfov&#13;
-1HcFtFjEgA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_697653e3-38de-423f-a855-e4da803212a0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fw6v/ZCvmacH1G9HPGW2cF9/9R3V1UWBNsRi3F0ZV8pLau4mDcU1EprH29uX7uFUk94juptn8t+o&#13;
-OK0rS86HCA==</DigestValue></Reference></SignedInfo><SignatureValue>HkJNXvx9BSlJLIDKKV6+ET9SeuhWICt8tYUOL0amI1VSrWyzs06Gh6JVoZyOe1x2qElhArMAOfWd&#13;
-EZhshzL+SsQ5pMWOKavYw0CNItNXO3hHQq778tssCO+xqx8czhUDb6NhD0o/RZhf9lfRlu0saW8n&#13;
-wpQ3MoSl96JKq8I2LQizhFgHz0xSUAXYRABo6l7AcgiK0XvJX56j4CW0v90YhUMCPn1k8VUxDVcb&#13;
-i0Ok7VY6gHDT1xfBDlgIx4McerTDV6RngHCFoA/Hdfrexgy7mPgeClt0Kf2eZEuYMLMbaK5VO7w0&#13;
-9mzHugzS+73CYnoXrr+9SjFcnmSjzDF2YYoESQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ff0903d8-c877-4d6e-86d8-ca9d1e3f0462"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4ENcwGv2Dy7UXTwSYauK1vQG+UwcsRy6W+9boQ3yCbH2iqZmoGk86zMs3FyKNvIOnsdYC6Wz09Db&#13;
+xz1/qE09kQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_142dc40c-e8d3-4ca4-b2c3-3e870045b782"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3H33jU+OFiki6H2I14fOY1RK3NAvJ1PSWQxkiP4utvhU1/fwI7miPqz8dDhmlu5ew+3D3I1KRnK/&#13;
+KRyLYMwK6w==</DigestValue></Reference></SignedInfo><SignatureValue>pFWjBKCkincT8tv/H4ziosQbLzazGO/ve+af5LlE6RXzLwd5Vwg4CvaaT5aotPqbBkfQ0dWe8bqF&#13;
+IAINlK4ec9Z3TD7icPn8a5UqiNL6DpTeGICyL/aeu1+fA/bRBKQgtgrs1iDiNWBNjw4DN3rFHx+X&#13;
+kOFeswce9eWe+1t/j9bZFmEYYrqth4+XFmJFBzdqgrKkNDQToH2myfp30IMN9PMTfZfz/K2D1zGr&#13;
+vrJ22yjWUO1qLseAwaxe2jXY5ozRONLaZ8TNzyp82Hi8HX9j2U9YZC6TQNTzhhHNTGzJDufTVkZe&#13;
+hqrewHtShsYWgeiTwfNgad/LwSPa+mr0IyO2wQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -742,4 +786,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_697653e3-38de-423f-a855-e4da803212a0" Target="#_69a3372a-5b7a-472e-926b-93d4660ee75c"><Timestamp>2022-11-01 16:46:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_142dc40c-e8d3-4ca4-b2c3-3e870045b782" Target="#_ff0903d8-c877-4d6e-86d8-ca9d1e3f0462"><Timestamp>2022-11-01 20:41:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
