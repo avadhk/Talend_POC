@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/avadk/workspace/in.csv&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OOtiiUTzdmkK4PA7Sp+AwGTOHIM40EW0FGAJEIEJ"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/avadk/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:L1zvLfe5zG4goc3/Tv0EQ6Yk95rwWV3BhK7gKvnX"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_e0osolk5Ee2LkplUhNyjEQ" name="SQLike"/>
+    <routinesParameter id="_e0sXAFk5Ee2LkplUhNyjEQ" name="DataOperation"/>
+    <routinesParameter id="_e0vaUFk5Ee2LkplUhNyjEQ" name="Mathematical"/>
+    <routinesParameter id="_e00S0Fk5Ee2LkplUhNyjEQ" name="Numeric"/>
+    <routinesParameter id="_e039MFk5Ee2LkplUhNyjEQ" name="Relational"/>
+    <routinesParameter id="_e08OoFk5Ee2LkplUhNyjEQ" name="StringHandling"/>
+    <routinesParameter id="_e1AgEFk5Ee2LkplUhNyjEQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_e1FYkFk5Ee2LkplUhNyjEQ" name="TalendDate"/>
+    <routinesParameter id="_e1KREFk5Ee2LkplUhNyjEQ" name="TalendString"/>
+    <routinesParameter id="_e1PJkFk5Ee2LkplUhNyjEQ" name="TalendStringUtil"/>
+    <routinesParameter id="_e1WeUFk5Ee2LkplUhNyjEQ" name="DataMasking"/>
+    <routinesParameter id="_e1avwFk5Ee2LkplUhNyjEQ" name="DataQuality"/>
+    <routinesParameter id="_e1fBMFk5Ee2LkplUhNyjEQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_e1kgwFk5Ee2LkplUhNyjEQ" name="DqStringHandling"/>
+    <routinesParameter id="_e1pZQFk5Ee2LkplUhNyjEQ" name="DQTechnical"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;chirptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;chirptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DSSTAG01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;DSSTAG01&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;dsetl&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mR+DQYJeORZpHPeGu5GqURU7lgpf2B23AUPEyUmyh/u16i8hBaPotdZvmyoffA=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ - PTRBDCA"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;PTRBDCA&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select PTRBDCA_CODE, PTRBDCA_SHORT_DESC, PTRBDCA_LONG_DESC, PTRBDCA_PRIORITY, PTRBDCA_CALC_RULE, PTRBDCA_WEEK1_IND, PTRBDCA_WEEK2_IND, PTRBDCA_WEEK3_IND, PTRBDCA_WEEK4_IND, PTRBDCA_WEEK5_IND, PTRBDCA_AMT1_IND, PTRBDCA_AMT2_IND, PTRBDCA_AMT3_IND, PTRBDCA_AMT4_IND, PTRBDCA_AMT1_TITLE, PTRBDCA_AMT2_TITLE, PTRBDCA_AMT3_TITLE, PTRBDCA_AMT4_TITLE, PTRBDCA_OPTION1_IND, PTRBDCA_OPTION2_IND, PTRBDCA_OPTION3_IND, PTRBDCA_OPTION4_IND, PTRBDCA_OPTION5_IND, PTRBDCA_OPTION1_TITLE, PTRBDCA_OPTION2_TITLE, PTRBDCA_OPTION3_TITLE, PTRBDCA_OPTION4_TITLE, PTRBDCA_OPTION5_TITLE, PTRBDCA_GROSS_REPORT_IND, PTRBDCA_BENEFIT_IND, PTRBDCA_TXCD_CODE, PTRBDCA_TAX_TYPE_IND, PTRBDCA_OVERLOAD_IND, PTRBDCA_ARREAR_IND, PTRBDCA_ACTIVITY_DATE, PTRBDCA_BDTY_CODE, PTRBDCA_AMT1_DESC, PTRBDCA_AMT2_DESC, PTRBDCA_AMT3_DESC, PTRBDCA_AMT4_DESC, PTRBDCA_1099_CODE, PTRBDCA_FLAT_AMT_IND, PTRBDCA_YTD_START_MONTH, PTRBDCA_WEB_DESC, PTRBDCA_WEB_INFO_URL, PTRBDCA_OPTION1_WEB_DESC, PTRBDCA_OPTION2_WEB_DESC, PTRBDCA_OPTION3_WEB_DESC, PTRBDCA_OPTION4_WEB_DESC, PTRBDCA_OPTION5_WEB_DESC, PTRBDCA_AMT1_WEB_DESC, PTRBDCA_AMT2_WEB_DESC, PTRBDCA_AMT3_WEB_DESC, PTRBDCA_AMT4_WEB_DESC, PTRBDCA_BDCL_CODE, PTRBDCA_BENEFICIARY_IND, PTRBDCA_COVERAGE_IND from PTRBDCA&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_SHORT_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_LONG_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_PRIORITY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_CALC_RULE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK1_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK2_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK3_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK4_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK5_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_GROSS_REPORT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BENEFIT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_TXCD_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_TAX_TYPE_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OVERLOAD_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_ARREAR_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_ACTIVITY_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BDTY_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_1099_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_FLAT_AMT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_YTD_START_MONTH"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEB_INFO_URL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_WEB_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BDCL_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BENEFICIARY_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_COVERAGE_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="PTRBDCA" name="tDBInput_1">
+      <column comment="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." key="true" length="3" name="PTRBDCA_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined."/>
+      </column>
+      <column comment="SHORT DESCRIPTION: A brief description of the benefit/deduction." key="false" length="8" name="PTRBDCA_SHORT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="SHORT DESCRIPTION: A brief description of the benefit/deduction."/>
+      </column>
+      <column comment="LONG DESCRIPTION: Full description of the benefit/deduction." key="false" length="30" name="PTRBDCA_LONG_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="LONG DESCRIPTION: Full description of the benefit/deduction."/>
+      </column>
+      <column comment="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." key="false" length="2" name="PTRBDCA_PRIORITY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax."/>
+      </column>
+      <column comment="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." key="false" length="2" name="PTRBDCA_CALC_RULE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function."/>
+      </column>
+      <column comment="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." key="false" length="1" name="PTRBDCA_WEEK1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." key="false" length="1" name="PTRBDCA_WEEK2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." key="false" length="1" name="PTRBDCA_WEEK3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month."/>
+      </column>
+      <column comment="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." key="false" length="1" name="PTRBDCA_AMT1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." key="false" length="1" name="PTRBDCA_AMT2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form."/>
+      </column>
+      <column comment="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" key="false" length="1" name="PTRBDCA_AMT3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)"/>
+      </column>
+      <column comment="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." key="false" length="1" name="PTRBDCA_AMT4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed."/>
+      </column>
+      <column comment="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." key="false" length="1" name="PTRBDCA_OPTION1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed."/>
+      </column>
+      <column comment="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." key="false" length="8" name="PTRBDCA_OPTION3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)."/>
+      </column>
+      <column comment="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)."/>
+      </column>
+      <column comment="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION5_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." key="false" length="1" name="PTRBDCA_GROSS_REPORT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit."/>
+      </column>
+      <column comment="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." key="false" length="1" name="PTRBDCA_BENEFIT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits."/>
+      </column>
+      <column comment="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." key="false" length="8" name="PTRBDCA_TXCD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code."/>
+      </column>
+      <column comment="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." key="false" length="1" name="PTRBDCA_TAX_TYPE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined."/>
+      </column>
+      <column comment="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." key="false" length="1" name="PTRBDCA_OVERLOAD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction."/>
+      </column>
+      <column comment="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." key="false" length="1" name="PTRBDCA_ARREAR_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PTRBDCA_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." key="false" length="2" name="PTRBDCA_BDTY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form."/>
+      </column>
+      <column comment="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." key="false" length="30" name="PTRBDCA_AMT1_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1."/>
+      </column>
+      <column comment="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." key="false" length="30" name="PTRBDCA_AMT2_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2."/>
+      </column>
+      <column comment="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." key="false" length="30" name="PTRBDCA_AMT3_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3."/>
+      </column>
+      <column comment="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." key="false" length="30" name="PTRBDCA_AMT4_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4."/>
+      </column>
+      <column comment="1099 CODE: 1099-R Distribution Code associated with the deduction code." key="false" length="2" name="PTRBDCA_1099_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="1099 CODE: 1099-R Distribution Code associated with the deduction code."/>
+      </column>
+      <column comment="FLAT AMOUNT INDICATOR; Obsolete" key="false" length="1" name="PTRBDCA_FLAT_AMT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="FLAT AMOUNT INDICATOR; Obsolete"/>
+      </column>
+      <column comment="START MONTH: First month of fiscal year for deduction/benefit purposes." key="false" length="2" name="PTRBDCA_YTD_START_MONTH" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="START MONTH: First month of fiscal year for deduction/benefit purposes."/>
+      </column>
+      <column comment="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." key="false" length="100" name="PTRBDCA_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web."/>
+      </column>
+      <column comment="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." key="false" length="100" name="PTRBDCA_WEB_INFO_URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB INFO URL: URL to be linked to from Web for more information about the deduction code."/>
+      </column>
+      <column comment="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." key="false" length="100" name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web."/>
+      </column>
+      <column comment="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." key="false" length="100" name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web."/>
+      </column>
+      <column comment="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." key="false" length="100" name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web."/>
+      </column>
+      <column comment="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." key="false" length="100" name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web."/>
+      </column>
+      <column comment="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." key="false" length="100" name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web."/>
+      </column>
+      <column comment="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." key="false" length="100" name="PTRBDCA_AMT1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web."/>
+      </column>
+      <column comment="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." key="false" length="100" name="PTRBDCA_AMT2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web."/>
+      </column>
+      <column comment="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." key="false" length="100" name="PTRBDCA_AMT3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web."/>
+      </column>
+      <column comment="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." key="false" length="100" name="PTRBDCA_AMT4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web."/>
+      </column>
+      <column comment="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." key="false" length="8" name="PTRBDCA_BDCL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction."/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_BENEFICIARY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_COVERAGE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value="Benefit/Deduction Calculation Rule Table"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_siaevVmjEe2LkplUhNyjEQ-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="row2" name="row2">
+      <column comment="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." key="true" length="3" name="PTRBDCA_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined."/>
+      </column>
+      <column comment="SHORT DESCRIPTION: A brief description of the benefit/deduction." key="false" length="8" name="PTRBDCA_SHORT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="SHORT DESCRIPTION: A brief description of the benefit/deduction."/>
+      </column>
+      <column comment="LONG DESCRIPTION: Full description of the benefit/deduction." key="false" length="30" name="PTRBDCA_LONG_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="LONG DESCRIPTION: Full description of the benefit/deduction."/>
+      </column>
+      <column comment="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." key="false" length="2" name="PTRBDCA_PRIORITY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax."/>
+      </column>
+      <column comment="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." key="false" length="2" name="PTRBDCA_CALC_RULE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function."/>
+      </column>
+      <column comment="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." key="false" length="1" name="PTRBDCA_WEEK1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." key="false" length="1" name="PTRBDCA_WEEK2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." key="false" length="1" name="PTRBDCA_WEEK3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month."/>
+      </column>
+      <column comment="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." key="false" length="1" name="PTRBDCA_AMT1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." key="false" length="1" name="PTRBDCA_AMT2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form."/>
+      </column>
+      <column comment="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" key="false" length="1" name="PTRBDCA_AMT3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)"/>
+      </column>
+      <column comment="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." key="false" length="1" name="PTRBDCA_AMT4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed."/>
+      </column>
+      <column comment="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." key="false" length="1" name="PTRBDCA_OPTION1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed."/>
+      </column>
+      <column comment="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." key="false" length="8" name="PTRBDCA_OPTION3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)."/>
+      </column>
+      <column comment="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)."/>
+      </column>
+      <column comment="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION5_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." key="false" length="1" name="PTRBDCA_GROSS_REPORT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit."/>
+      </column>
+      <column comment="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." key="false" length="1" name="PTRBDCA_BENEFIT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits."/>
+      </column>
+      <column comment="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." key="false" length="8" name="PTRBDCA_TXCD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code."/>
+      </column>
+      <column comment="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." key="false" length="1" name="PTRBDCA_TAX_TYPE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined."/>
+      </column>
+      <column comment="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." key="false" length="1" name="PTRBDCA_OVERLOAD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction."/>
+      </column>
+      <column comment="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." key="false" length="1" name="PTRBDCA_ARREAR_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PTRBDCA_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." key="false" length="2" name="PTRBDCA_BDTY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form."/>
+      </column>
+      <column comment="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." key="false" length="30" name="PTRBDCA_AMT1_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1."/>
+      </column>
+      <column comment="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." key="false" length="30" name="PTRBDCA_AMT2_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2."/>
+      </column>
+      <column comment="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." key="false" length="30" name="PTRBDCA_AMT3_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3."/>
+      </column>
+      <column comment="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." key="false" length="30" name="PTRBDCA_AMT4_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4."/>
+      </column>
+      <column comment="1099 CODE: 1099-R Distribution Code associated with the deduction code." key="false" length="2" name="PTRBDCA_1099_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="1099 CODE: 1099-R Distribution Code associated with the deduction code."/>
+      </column>
+      <column comment="FLAT AMOUNT INDICATOR; Obsolete" key="false" length="1" name="PTRBDCA_FLAT_AMT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="FLAT AMOUNT INDICATOR; Obsolete"/>
+      </column>
+      <column comment="START MONTH: First month of fiscal year for deduction/benefit purposes." key="false" length="2" name="PTRBDCA_YTD_START_MONTH" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="START MONTH: First month of fiscal year for deduction/benefit purposes."/>
+      </column>
+      <column comment="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." key="false" length="100" name="PTRBDCA_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web."/>
+      </column>
+      <column comment="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." key="false" length="100" name="PTRBDCA_WEB_INFO_URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB INFO URL: URL to be linked to from Web for more information about the deduction code."/>
+      </column>
+      <column comment="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." key="false" length="100" name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web."/>
+      </column>
+      <column comment="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." key="false" length="100" name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web."/>
+      </column>
+      <column comment="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." key="false" length="100" name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web."/>
+      </column>
+      <column comment="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." key="false" length="100" name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web."/>
+      </column>
+      <column comment="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." key="false" length="100" name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web."/>
+      </column>
+      <column comment="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." key="false" length="100" name="PTRBDCA_AMT1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web."/>
+      </column>
+      <column comment="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." key="false" length="100" name="PTRBDCA_AMT2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web."/>
+      </column>
+      <column comment="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." key="false" length="100" name="PTRBDCA_AMT3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web."/>
+      </column>
+      <column comment="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." key="false" length="100" name="PTRBDCA_AMT4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web."/>
+      </column>
+      <column comment="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." key="false" length="8" name="PTRBDCA_BDCL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction."/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_BENEFICIARY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_COVERAGE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.PTRBDCA_CODE" name="PTRBDCA_CODE" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_SHORT_DESC" name="PTRBDCA_SHORT_DESC" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_LONG_DESC" name="PTRBDCA_LONG_DESC" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_PRIORITY" name="PTRBDCA_PRIORITY" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PTRBDCA_CALC_RULE" name="PTRBDCA_CALC_RULE" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEEK1_IND" name="PTRBDCA_WEEK1_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEEK2_IND" name="PTRBDCA_WEEK2_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEEK3_IND" name="PTRBDCA_WEEK3_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEEK4_IND" name="PTRBDCA_WEEK4_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEEK5_IND" name="PTRBDCA_WEEK5_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT1_IND" name="PTRBDCA_AMT1_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT2_IND" name="PTRBDCA_AMT2_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT3_IND" name="PTRBDCA_AMT3_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT4_IND" name="PTRBDCA_AMT4_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT1_TITLE" name="PTRBDCA_AMT1_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT2_TITLE" name="PTRBDCA_AMT2_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT3_TITLE" name="PTRBDCA_AMT3_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT4_TITLE" name="PTRBDCA_AMT4_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION1_IND" name="PTRBDCA_OPTION1_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION2_IND" name="PTRBDCA_OPTION2_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION3_IND" name="PTRBDCA_OPTION3_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION4_IND" name="PTRBDCA_OPTION4_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION5_IND" name="PTRBDCA_OPTION5_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION1_TITLE" name="PTRBDCA_OPTION1_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION2_TITLE" name="PTRBDCA_OPTION2_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION3_TITLE" name="PTRBDCA_OPTION3_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION4_TITLE" name="PTRBDCA_OPTION4_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION5_TITLE" name="PTRBDCA_OPTION5_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_GROSS_REPORT_IND" name="PTRBDCA_GROSS_REPORT_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_BENEFIT_IND" name="PTRBDCA_BENEFIT_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_TXCD_CODE" name="PTRBDCA_TXCD_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_TAX_TYPE_IND" name="PTRBDCA_TAX_TYPE_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OVERLOAD_IND" name="PTRBDCA_OVERLOAD_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_ARREAR_IND" name="PTRBDCA_ARREAR_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_ACTIVITY_DATE" name="PTRBDCA_ACTIVITY_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PTRBDCA_BDTY_CODE" name="PTRBDCA_BDTY_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT1_DESC" name="PTRBDCA_AMT1_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT2_DESC" name="PTRBDCA_AMT2_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT3_DESC" name="PTRBDCA_AMT3_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT4_DESC" name="PTRBDCA_AMT4_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_1099_CODE" name="PTRBDCA_1099_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_FLAT_AMT_IND" name="PTRBDCA_FLAT_AMT_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_YTD_START_MONTH" name="PTRBDCA_YTD_START_MONTH" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEB_DESC" name="PTRBDCA_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_WEB_INFO_URL" name="PTRBDCA_WEB_INFO_URL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION1_WEB_DESC" name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION2_WEB_DESC" name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION3_WEB_DESC" name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION4_WEB_DESC" name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_OPTION5_WEB_DESC" name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT1_WEB_DESC" name="PTRBDCA_AMT1_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT2_WEB_DESC" name="PTRBDCA_AMT2_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT3_WEB_DESC" name="PTRBDCA_AMT3_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_AMT4_WEB_DESC" name="PTRBDCA_AMT4_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_BDCL_CODE" name="PTRBDCA_BDCL_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_BENEFICIARY_IND" name="PTRBDCA_BENEFICIARY_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PTRBDCA_COVERAGE_IND" name="PTRBDCA_COVERAGE_IND" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PTRBDCA_CODE" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_SHORT_DESC" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_LONG_DESC" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_PRIORITY" type="id_BigDecimal"/>
+        <mapperTableEntries name="PTRBDCA_CALC_RULE" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEEK1_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEEK2_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEEK3_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEEK4_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEEK5_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT1_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT2_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT3_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT4_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT1_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT2_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT3_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT4_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION1_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION2_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION3_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION4_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION5_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION1_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION2_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION3_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION4_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION5_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_GROSS_REPORT_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_BENEFIT_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_TXCD_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_TAX_TYPE_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OVERLOAD_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_ARREAR_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_ACTIVITY_DATE" type="id_Date"/>
+        <mapperTableEntries name="PTRBDCA_BDTY_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT1_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT2_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT3_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT4_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_1099_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_FLAT_AMT_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_YTD_START_MONTH" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PTRBDCA_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_WEB_INFO_URL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT1_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT2_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT3_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_AMT4_WEB_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_BDCL_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_BENEFICIARY_IND" type="id_String"/>
+        <mapperTableEntries name="PTRBDCA_COVERAGE_IND" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;urbrptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;urbrptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DSQAST01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;DSQAST01&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;PAYROLL&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;infuser&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bh05zvFs19omTylglVrh2o++mTp6+tqYlPXS4mBKM8ZEkVWSzY4xwl4E2UV3Yg=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;PTRBDCA&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ - PTRBDCA"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_LBZakFlYEe2LkplUhNyjEQ - PTRBDCA"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_SHORT_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_LONG_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_PRIORITY"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_CALC_RULE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK1_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK2_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK3_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK4_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEEK5_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_GROSS_REPORT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BENEFIT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_TXCD_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_TAX_TYPE_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OVERLOAD_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_ARREAR_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_ACTIVITY_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BDTY_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_1099_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_FLAT_AMT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_YTD_START_MONTH"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_WEB_INFO_URL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION1_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION2_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION3_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION4_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_OPTION5_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT1_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT2_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT3_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_AMT4_WEB_DESC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BDCL_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_BENEFICIARY_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PTRBDCA_COVERAGE_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="PTRBDCA" name="tDBOutput_1">
+      <column comment="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." key="true" length="3" name="PTRBDCA_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined."/>
+      </column>
+      <column comment="SHORT DESCRIPTION: A brief description of the benefit/deduction." key="false" length="8" name="PTRBDCA_SHORT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="SHORT DESCRIPTION: A brief description of the benefit/deduction."/>
+      </column>
+      <column comment="LONG DESCRIPTION: Full description of the benefit/deduction." key="false" length="30" name="PTRBDCA_LONG_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="LONG DESCRIPTION: Full description of the benefit/deduction."/>
+      </column>
+      <column comment="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." key="false" length="2" name="PTRBDCA_PRIORITY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax."/>
+      </column>
+      <column comment="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." key="false" length="2" name="PTRBDCA_CALC_RULE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function."/>
+      </column>
+      <column comment="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." key="false" length="1" name="PTRBDCA_WEEK1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." key="false" length="1" name="PTRBDCA_WEEK2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." key="false" length="1" name="PTRBDCA_WEEK3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month."/>
+      </column>
+      <column comment="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." key="false" length="1" name="PTRBDCA_AMT1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." key="false" length="1" name="PTRBDCA_AMT2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form."/>
+      </column>
+      <column comment="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" key="false" length="1" name="PTRBDCA_AMT3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)"/>
+      </column>
+      <column comment="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." key="false" length="1" name="PTRBDCA_AMT4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed."/>
+      </column>
+      <column comment="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." key="false" length="1" name="PTRBDCA_OPTION1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed."/>
+      </column>
+      <column comment="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." key="false" length="8" name="PTRBDCA_OPTION3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)."/>
+      </column>
+      <column comment="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)."/>
+      </column>
+      <column comment="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION5_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." key="false" length="1" name="PTRBDCA_GROSS_REPORT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit."/>
+      </column>
+      <column comment="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." key="false" length="1" name="PTRBDCA_BENEFIT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits."/>
+      </column>
+      <column comment="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." key="false" length="8" name="PTRBDCA_TXCD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code."/>
+      </column>
+      <column comment="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." key="false" length="1" name="PTRBDCA_TAX_TYPE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined."/>
+      </column>
+      <column comment="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." key="false" length="1" name="PTRBDCA_OVERLOAD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction."/>
+      </column>
+      <column comment="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." key="false" length="1" name="PTRBDCA_ARREAR_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PTRBDCA_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." key="false" length="2" name="PTRBDCA_BDTY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form."/>
+      </column>
+      <column comment="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." key="false" length="30" name="PTRBDCA_AMT1_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1."/>
+      </column>
+      <column comment="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." key="false" length="30" name="PTRBDCA_AMT2_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2."/>
+      </column>
+      <column comment="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." key="false" length="30" name="PTRBDCA_AMT3_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3."/>
+      </column>
+      <column comment="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." key="false" length="30" name="PTRBDCA_AMT4_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4."/>
+      </column>
+      <column comment="1099 CODE: 1099-R Distribution Code associated with the deduction code." key="false" length="2" name="PTRBDCA_1099_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="1099 CODE: 1099-R Distribution Code associated with the deduction code."/>
+      </column>
+      <column comment="FLAT AMOUNT INDICATOR; Obsolete" key="false" length="1" name="PTRBDCA_FLAT_AMT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="FLAT AMOUNT INDICATOR; Obsolete"/>
+      </column>
+      <column comment="START MONTH: First month of fiscal year for deduction/benefit purposes." key="false" length="2" name="PTRBDCA_YTD_START_MONTH" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="START MONTH: First month of fiscal year for deduction/benefit purposes."/>
+      </column>
+      <column comment="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." key="false" length="100" name="PTRBDCA_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web."/>
+      </column>
+      <column comment="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." key="false" length="100" name="PTRBDCA_WEB_INFO_URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB INFO URL: URL to be linked to from Web for more information about the deduction code."/>
+      </column>
+      <column comment="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." key="false" length="100" name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web."/>
+      </column>
+      <column comment="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." key="false" length="100" name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web."/>
+      </column>
+      <column comment="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." key="false" length="100" name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web."/>
+      </column>
+      <column comment="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." key="false" length="100" name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web."/>
+      </column>
+      <column comment="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." key="false" length="100" name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web."/>
+      </column>
+      <column comment="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." key="false" length="100" name="PTRBDCA_AMT1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web."/>
+      </column>
+      <column comment="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." key="false" length="100" name="PTRBDCA_AMT2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web."/>
+      </column>
+      <column comment="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." key="false" length="100" name="PTRBDCA_AMT3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web."/>
+      </column>
+      <column comment="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." key="false" length="100" name="PTRBDCA_AMT4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web."/>
+      </column>
+      <column comment="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." key="false" length="8" name="PTRBDCA_BDCL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction."/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_BENEFICIARY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_COVERAGE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value="Benefit/Deduction Calculation Rule Table"/>
+    </metadata>
+    <metadata connector="REJECT" label="PTRBDCA" name="REJECT">
+      <column comment="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." key="true" length="3" name="PTRBDCA_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined."/>
+      </column>
+      <column comment="SHORT DESCRIPTION: A brief description of the benefit/deduction." key="false" length="8" name="PTRBDCA_SHORT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="SHORT DESCRIPTION: A brief description of the benefit/deduction."/>
+      </column>
+      <column comment="LONG DESCRIPTION: Full description of the benefit/deduction." key="false" length="30" name="PTRBDCA_LONG_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="LONG DESCRIPTION: Full description of the benefit/deduction."/>
+      </column>
+      <column comment="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." key="false" length="2" name="PTRBDCA_PRIORITY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax."/>
+      </column>
+      <column comment="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." key="false" length="2" name="PTRBDCA_CALC_RULE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function."/>
+      </column>
+      <column comment="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." key="false" length="1" name="PTRBDCA_WEEK1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." key="false" length="1" name="PTRBDCA_WEEK2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." key="false" length="1" name="PTRBDCA_WEEK3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month."/>
+      </column>
+      <column comment="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." key="false" length="1" name="PTRBDCA_WEEK5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month."/>
+      </column>
+      <column comment="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." key="false" length="1" name="PTRBDCA_AMT1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." key="false" length="1" name="PTRBDCA_AMT2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form."/>
+      </column>
+      <column comment="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" key="false" length="1" name="PTRBDCA_AMT3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)"/>
+      </column>
+      <column comment="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." key="false" length="1" name="PTRBDCA_AMT4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed."/>
+      </column>
+      <column comment="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_AMT4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." key="false" length="1" name="PTRBDCA_OPTION1_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed."/>
+      </column>
+      <column comment="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION2_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION3_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION4_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." key="false" length="1" name="PTRBDCA_OPTION5_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed."/>
+      </column>
+      <column comment="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION1_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION2_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." key="false" length="8" name="PTRBDCA_OPTION3_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)."/>
+      </column>
+      <column comment="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION4_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)."/>
+      </column>
+      <column comment="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." key="false" length="8" name="PTRBDCA_OPTION5_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)."/>
+      </column>
+      <column comment="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." key="false" length="1" name="PTRBDCA_GROSS_REPORT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit."/>
+      </column>
+      <column comment="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." key="false" length="1" name="PTRBDCA_BENEFIT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits."/>
+      </column>
+      <column comment="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." key="false" length="8" name="PTRBDCA_TXCD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code."/>
+      </column>
+      <column comment="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." key="false" length="1" name="PTRBDCA_TAX_TYPE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined."/>
+      </column>
+      <column comment="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." key="false" length="1" name="PTRBDCA_OVERLOAD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction."/>
+      </column>
+      <column comment="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." key="false" length="1" name="PTRBDCA_ARREAR_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PTRBDCA_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." key="false" length="2" name="PTRBDCA_BDTY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form."/>
+      </column>
+      <column comment="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." key="false" length="30" name="PTRBDCA_AMT1_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1."/>
+      </column>
+      <column comment="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." key="false" length="30" name="PTRBDCA_AMT2_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2."/>
+      </column>
+      <column comment="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." key="false" length="30" name="PTRBDCA_AMT3_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3."/>
+      </column>
+      <column comment="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." key="false" length="30" name="PTRBDCA_AMT4_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4."/>
+      </column>
+      <column comment="1099 CODE: 1099-R Distribution Code associated with the deduction code." key="false" length="2" name="PTRBDCA_1099_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="1099 CODE: 1099-R Distribution Code associated with the deduction code."/>
+      </column>
+      <column comment="FLAT AMOUNT INDICATOR; Obsolete" key="false" length="1" name="PTRBDCA_FLAT_AMT_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="FLAT AMOUNT INDICATOR; Obsolete"/>
+      </column>
+      <column comment="START MONTH: First month of fiscal year for deduction/benefit purposes." key="false" length="2" name="PTRBDCA_YTD_START_MONTH" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="START MONTH: First month of fiscal year for deduction/benefit purposes."/>
+      </column>
+      <column comment="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." key="false" length="100" name="PTRBDCA_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web."/>
+      </column>
+      <column comment="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." key="false" length="100" name="PTRBDCA_WEB_INFO_URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="WEB INFO URL: URL to be linked to from Web for more information about the deduction code."/>
+      </column>
+      <column comment="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." key="false" length="100" name="PTRBDCA_OPTION1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web."/>
+      </column>
+      <column comment="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." key="false" length="100" name="PTRBDCA_OPTION2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web."/>
+      </column>
+      <column comment="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." key="false" length="100" name="PTRBDCA_OPTION3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web."/>
+      </column>
+      <column comment="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." key="false" length="100" name="PTRBDCA_OPTION4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web."/>
+      </column>
+      <column comment="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." key="false" length="100" name="PTRBDCA_OPTION5_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web."/>
+      </column>
+      <column comment="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." key="false" length="100" name="PTRBDCA_AMT1_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web."/>
+      </column>
+      <column comment="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." key="false" length="100" name="PTRBDCA_AMT2_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web."/>
+      </column>
+      <column comment="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." key="false" length="100" name="PTRBDCA_AMT3_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web."/>
+      </column>
+      <column comment="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." key="false" length="100" name="PTRBDCA_AMT4_WEB_DESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web."/>
+      </column>
+      <column comment="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." key="false" length="8" name="PTRBDCA_BDCL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction."/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_BENEFICIARY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PTRBDCA_COVERAGE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="Comment" value="Benefit/Deduction Calculation Rule Table"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="row2" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_af5292af-bfda-4662-b962-64df12b3d3fc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nj3G/NU3UGhrl7FqtWfeRDjiDmXytiBPpILScwZsZpMD0F8UfMVGsQExsDQIvB4VIqUGV3wpoMp3&#13;
+l7J2hhYmCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_de04a90f-8e74-417a-850f-b2c9da33d878"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>s7sEPXuU8KQMkK5sMyAEvwyxvdMvN1SCGv8hcD+zBe1zXPSGpZ/bjaaoiIJfG3guNEySwe7s4nW1&#13;
+cdbqzuzd6g==</DigestValue></Reference></SignedInfo><SignatureValue>TfCGDGjYY/Z6OUBktdzEcXUDix0Bv0W6ATr6RIXyjh2Dpeh1bXddAGkOXouhI9Txijgj/iph8TMB&#13;
+kBGtdvWrqutznIjm/7Sls6Pothwxn3PctPQ1qvl5XDMYt6rKfTTe3onKqS9AUuQw4cOCSW1D34zw&#13;
+UnmHaEijaV3/OHm6It5g5MBEEmfdWSi9hkBTX2jVAWDw4XFoGbhM1A27LaRukswZDdtRu0nDZa30&#13;
+Y+otNm2cChJoB2Vscns57sHu83/kf+7xxGvGW1rB1CmKFbNCiMNO0vELRCRmTHdwBPPt8N02JY7A&#13;
+PQJxXTchkAY+ZhNROrlEf2SqdchjsQZSWqnUfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_de04a90f-8e74-417a-850f-b2c9da33d878" Target="#_af5292af-bfda-4662-b962-64df12b3d3fc"><Timestamp>2022-11-01 05:25:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/avadk/workspace/in.csv&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0F7gfiwVIFoQv/AZZ/O9Qv5McNWf9oqPgQGqbBhG"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/avadk/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FAxberG6KYwJ8QhptnM080rSOzU9Fs67tEnAcMPN"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_e0osolk5Ee2LkplUhNyjEQ" name="SQLike"/>
+    <routinesParameter id="_e0sXAFk5Ee2LkplUhNyjEQ" name="DataOperation"/>
+    <routinesParameter id="_e0vaUFk5Ee2LkplUhNyjEQ" name="Mathematical"/>
+    <routinesParameter id="_e00S0Fk5Ee2LkplUhNyjEQ" name="Numeric"/>
+    <routinesParameter id="_e039MFk5Ee2LkplUhNyjEQ" name="Relational"/>
+    <routinesParameter id="_e08OoFk5Ee2LkplUhNyjEQ" name="StringHandling"/>
+    <routinesParameter id="_e1AgEFk5Ee2LkplUhNyjEQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_e1FYkFk5Ee2LkplUhNyjEQ" name="TalendDate"/>
+    <routinesParameter id="_e1KREFk5Ee2LkplUhNyjEQ" name="TalendString"/>
+    <routinesParameter id="_e1PJkFk5Ee2LkplUhNyjEQ" name="TalendStringUtil"/>
+    <routinesParameter id="_e1WeUFk5Ee2LkplUhNyjEQ" name="DataMasking"/>
+    <routinesParameter id="_e1avwFk5Ee2LkplUhNyjEQ" name="DataQuality"/>
+    <routinesParameter id="_e1fBMFk5Ee2LkplUhNyjEQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_e1kgwFk5Ee2LkplUhNyjEQ" name="DqStringHandling"/>
+    <routinesParameter id="_e1pZQFk5Ee2LkplUhNyjEQ" name="DQTechnical"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;chirptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;chirptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DSSTAG01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;DSSTAG01&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;dsetl&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BOwD3Hf50b8DU/jaJv/x1vY3MI2ic6I0WbmIdzKreZM6eGmE7oztcFhl7iW1Fg=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ - PEBEMPL"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;PEBEMPL&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select PEBEMPL_PIDM, PEBEMPL_EMPL_STATUS, PEBEMPL_COAS_CODE_HOME, PEBEMPL_ORGN_CODE_HOME, PEBEMPL_COAS_CODE_DIST, PEBEMPL_ORGN_CODE_DIST, PEBEMPL_ECLS_CODE, PEBEMPL_LCAT_CODE, PEBEMPL_BCAT_CODE, PEBEMPL_FIRST_HIRE_DATE, PEBEMPL_CURRENT_HIRE_DATE, PEBEMPL_ADJ_SERVICE_DATE, PEBEMPL_SENIORITY_DATE, PEBEMPL_LREA_CODE, PEBEMPL_LOA_BEG_DATE, PEBEMPL_LOA_END_DATE, PEBEMPL_TREA_CODE, PEBEMPL_TERM_DATE, PEBEMPL_I9_FORM_IND, PEBEMPL_I9_DATE, PEBEMPL_I9_EXPIRE_DATE, PEBEMPL_ACTIVITY_DATE, PEBEMPL_WKPR_CODE, PEBEMPL_FLSA_IND, PEBEMPL_STGR_CODE, PEBEMPL_DAYS_IN_CANADA, PEBEMPL_1042_RECIPIENT_CD, PEBEMPL_INTERNAL_FT_PT_IND, PEBEMPL_DICD_CODE, PEBEMPL_EGRP_CODE, PEBEMPL_IPEDS_SOFT_MONEY_IND, PEBEMPL_FIRST_WORK_DATE, PEBEMPL_LAST_WORK_DATE, PEBEMPL_CALIF_PENSION_IND, PEBEMPL_NRSI_CODE, PEBEMPL_SSN_LAST_NAME, PEBEMPL_SSN_FIRST_NAME, PEBEMPL_SSN_MI, PEBEMPL_SSN_SUFFIX, PEBEMPL_JBLN_CODE, PEBEMPL_COLL_CODE, PEBEMPL_CAMP_CODE, PEBEMPL_USER_ID, PEBEMPL_DATA_ORIGIN, PEBEMPL_EW2_CONSENT_IND, PEBEMPL_EW2_CONSENT_DATE, PEBEMPL_EW2_CONSENT_USER_ID, PEBEMPL_IPEDS_PRIMARY_FUNCTION, PEBEMPL_IPEDS_MED_DENTAL_IND, PEBEMPL_ETAX_CONSENT_IND, PEBEMPL_ETAX_CONSENT_DATE, PEBEMPL_ETAX_CONSENT_USER_ID from PEBEMPL&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_PIDM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EMPL_STATUS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COAS_CODE_HOME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ORGN_CODE_HOME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COAS_CODE_DIST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ORGN_CODE_DIST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ECLS_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LCAT_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_BCAT_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FIRST_HIRE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CURRENT_HIRE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ADJ_SERVICE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SENIORITY_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LREA_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LOA_BEG_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LOA_END_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_TREA_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_TERM_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_FORM_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_EXPIRE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ACTIVITY_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_WKPR_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FLSA_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_STGR_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DAYS_IN_CANADA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_1042_RECIPIENT_CD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_INTERNAL_FT_PT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DICD_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EGRP_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_SOFT_MONEY_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FIRST_WORK_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LAST_WORK_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CALIF_PENSION_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_NRSI_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_LAST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_FIRST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_MI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_SUFFIX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_JBLN_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COLL_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CAMP_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DATA_ORIGIN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_PRIMARY_FUNCTION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_MED_DENTAL_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="PEBEMPL" name="tDBInput_1">
+      <column comment="Internal Identification number of person." key="true" length="8" name="PEBEMPL_PIDM" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Identification number of person."/>
+      </column>
+      <column comment="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated." key="false" length="1" name="PEBEMPL_EMPL_STATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated."/>
+      </column>
+      <column comment="The Home Chart of Accounts Code for the employee." key="false" length="1" name="PEBEMPL_COAS_CODE_HOME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Chart of Accounts Code for the employee."/>
+      </column>
+      <column comment="The Home Organization code of the employee." key="false" length="6" name="PEBEMPL_ORGN_CODE_HOME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Organization code of the employee."/>
+      </column>
+      <column comment="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed." key="false" length="1" name="PEBEMPL_COAS_CODE_DIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed."/>
+      </column>
+      <column comment="The organization code used for document distribution." key="false" length="6" name="PEBEMPL_ORGN_CODE_DIST" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The organization code used for document distribution."/>
+      </column>
+      <column comment="The employee grouping to which the employee belongs." key="false" length="2" name="PEBEMPL_ECLS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee grouping to which the employee belongs."/>
+      </column>
+      <column comment="The leave category to which the employee belongs." key="false" length="2" name="PEBEMPL_LCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The leave category to which the employee belongs."/>
+      </column>
+      <column comment="The benefit category to which the employee belongs." key="false" length="2" name="PEBEMPL_BCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The benefit category to which the employee belongs."/>
+      </column>
+      <column comment="The date the employee was first hired." key="false" length="7" name="PEBEMPL_FIRST_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the employee was first hired."/>
+      </column>
+      <column comment="The employees current date of hire." key="false" length="7" name="PEBEMPL_CURRENT_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The employees current date of hire."/>
+      </column>
+      <column comment="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal." key="false" length="7" name="PEBEMPL_ADJ_SERVICE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal."/>
+      </column>
+      <column comment="Date that establishes service and can be used for leave accrual." key="false" length="7" name="PEBEMPL_SENIORITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date that establishes service and can be used for leave accrual."/>
+      </column>
+      <column comment="A code identifying the reason for the leave of absence of the employee." key="false" length="2" name="PEBEMPL_LREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="A code identifying the reason for the leave of absence of the employee."/>
+      </column>
+      <column comment="The begin date of a leave of absence for the employee." key="false" length="7" name="PEBEMPL_LOA_BEG_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The begin date of a leave of absence for the employee."/>
+      </column>
+      <column comment="The anticipated end date for an employee's leave of absence." key="false" length="7" name="PEBEMPL_LOA_END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The anticipated end date for an employee's leave of absence."/>
+      </column>
+      <column comment="Code used to identify the reason of termination." key="false" length="2" name="PEBEMPL_TREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Code used to identify the reason of termination."/>
+      </column>
+      <column comment="Termination date of the employee." key="false" length="7" name="PEBEMPL_TERM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Termination date of the employee."/>
+      </column>
+      <column comment="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None." key="false" length="1" name="PEBEMPL_I9_FORM_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None."/>
+      </column>
+      <column comment="The date immigration information was received." key="false" length="7" name="PEBEMPL_I9_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date immigration information was received."/>
+      </column>
+      <column comment="The date the immigration information expires." key="false" length="7" name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the immigration information expires."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PEBEMPL_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="Work Period Code." key="false" length="4" name="PEBEMPL_WKPR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Work Period Code."/>
+      </column>
+      <column comment="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA." key="false" length="1" name="PEBEMPL_FLSA_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA."/>
+      </column>
+      <column comment="Statistics Canada Grouping Code." key="false" length="2" name="PEBEMPL_STGR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics Canada Grouping Code."/>
+      </column>
+      <column comment="Number of days the employee worked in Canada." key="false" length="3" name="PEBEMPL_DAYS_IN_CANADA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of days the employee worked in Canada."/>
+      </column>
+      <column comment="Identifies the type of individual who is receiving a 1042 statement." key="false" length="2" name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Identifies the type of individual who is receiving a 1042 statement."/>
+      </column>
+      <column comment="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other." key="false" length="1" name="PEBEMPL_INTERNAL_FT_PT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other."/>
+      </column>
+      <column comment="The district or division associated with an employee." key="false" length="3" name="PEBEMPL_DICD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The district or division associated with an employee."/>
+      </column>
+      <column comment="The employee group is a sub-category of the Employee Class." key="false" length="4" name="PEBEMPL_EGRP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee group is a sub-category of the Employee Class."/>
+      </column>
+      <column comment="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No." key="false" length="1" name="PEBEMPL_IPEDS_SOFT_MONEY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No."/>
+      </column>
+      <column comment="The first day that the employee worked." key="false" length="7" name="PEBEMPL_FIRST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The first day that the employee worked."/>
+      </column>
+      <column comment="The last day that the employee worked." key="false" length="7" name="PEBEMPL_LAST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The last day that the employee worked."/>
+      </column>
+      <column comment="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None." key="false" length="1" name="PEBEMPL_CALIF_PENSION_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None."/>
+      </column>
+      <column comment="Non-resident Service Code." key="false" length="4" name="PEBEMPL_NRSI_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Non-resident Service Code."/>
+      </column>
+      <column comment="Social security last name used in reporting." key="false" length="20" name="PEBEMPL_SSN_LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security last name used in reporting."/>
+      </column>
+      <column comment="Social security first name used in reporting." key="false" length="15" name="PEBEMPL_SSN_FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security first name used in reporting."/>
+      </column>
+      <column comment="Social security middle name used in reporting." key="false" length="15" name="PEBEMPL_SSN_MI" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security middle name used in reporting."/>
+      </column>
+      <column comment="Social security name suffix used in reporting." key="false" length="4" name="PEBEMPL_SSN_SUFFIX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security name suffix used in reporting."/>
+      </column>
+      <column comment="The Location to which the employee belongs." key="false" length="6" name="PEBEMPL_JBLN_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Location to which the employee belongs."/>
+      </column>
+      <column comment="The College to which the employee belongs." key="false" length="2" name="PEBEMPL_COLL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The College to which the employee belongs."/>
+      </column>
+      <column comment="The Campus to which the employee belongs." key="false" length="3" name="PEBEMPL_CAMP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Campus to which the employee belongs."/>
+      </column>
+      <column comment="The user who last created or updated the employee record." key="false" length="30" name="PEBEMPL_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The user who last created or updated the employee record."/>
+      </column>
+      <column comment="Source system that generated the data." key="false" length="30" name="PEBEMPL_DATA_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Source system that generated the data."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o." key="false" length="1" name="PEBEMPL_EW2_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated." key="false" length="7" name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator." key="false" length="30" name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator."/>
+      </column>
+      <column comment="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)" key="false" length="3" name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)"/>
+      </column>
+      <column comment="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N." key="false" length="1" name="PEBEMPL_IPEDS_MED_DENTAL_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)." key="false" length="1" name="PEBEMPL_ETAX_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated." key="false" length="7" name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator." key="false" length="30" name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator."/>
+      </column>
+      <additionalProperties key="Comment" value="Employee Base Table"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_LO0V4llkEe2LkplUhNyjEQ-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="row2" name="row2">
+      <column comment="Internal Identification number of person." key="true" length="8" name="PEBEMPL_PIDM" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Identification number of person."/>
+      </column>
+      <column comment="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated." key="false" length="1" name="PEBEMPL_EMPL_STATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated."/>
+      </column>
+      <column comment="The Home Chart of Accounts Code for the employee." key="false" length="1" name="PEBEMPL_COAS_CODE_HOME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Chart of Accounts Code for the employee."/>
+      </column>
+      <column comment="The Home Organization code of the employee." key="false" length="6" name="PEBEMPL_ORGN_CODE_HOME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Organization code of the employee."/>
+      </column>
+      <column comment="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed." key="false" length="1" name="PEBEMPL_COAS_CODE_DIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed."/>
+      </column>
+      <column comment="The organization code used for document distribution." key="false" length="6" name="PEBEMPL_ORGN_CODE_DIST" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The organization code used for document distribution."/>
+      </column>
+      <column comment="The employee grouping to which the employee belongs." key="false" length="2" name="PEBEMPL_ECLS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee grouping to which the employee belongs."/>
+      </column>
+      <column comment="The leave category to which the employee belongs." key="false" length="2" name="PEBEMPL_LCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The leave category to which the employee belongs."/>
+      </column>
+      <column comment="The benefit category to which the employee belongs." key="false" length="2" name="PEBEMPL_BCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The benefit category to which the employee belongs."/>
+      </column>
+      <column comment="The date the employee was first hired." key="false" length="7" name="PEBEMPL_FIRST_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the employee was first hired."/>
+      </column>
+      <column comment="The employees current date of hire." key="false" length="7" name="PEBEMPL_CURRENT_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The employees current date of hire."/>
+      </column>
+      <column comment="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal." key="false" length="7" name="PEBEMPL_ADJ_SERVICE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal."/>
+      </column>
+      <column comment="Date that establishes service and can be used for leave accrual." key="false" length="7" name="PEBEMPL_SENIORITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date that establishes service and can be used for leave accrual."/>
+      </column>
+      <column comment="A code identifying the reason for the leave of absence of the employee." key="false" length="2" name="PEBEMPL_LREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="A code identifying the reason for the leave of absence of the employee."/>
+      </column>
+      <column comment="The begin date of a leave of absence for the employee." key="false" length="7" name="PEBEMPL_LOA_BEG_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The begin date of a leave of absence for the employee."/>
+      </column>
+      <column comment="The anticipated end date for an employee's leave of absence." key="false" length="7" name="PEBEMPL_LOA_END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The anticipated end date for an employee's leave of absence."/>
+      </column>
+      <column comment="Code used to identify the reason of termination." key="false" length="2" name="PEBEMPL_TREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Code used to identify the reason of termination."/>
+      </column>
+      <column comment="Termination date of the employee." key="false" length="7" name="PEBEMPL_TERM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Termination date of the employee."/>
+      </column>
+      <column comment="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None." key="false" length="1" name="PEBEMPL_I9_FORM_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None."/>
+      </column>
+      <column comment="The date immigration information was received." key="false" length="7" name="PEBEMPL_I9_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date immigration information was received."/>
+      </column>
+      <column comment="The date the immigration information expires." key="false" length="7" name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the immigration information expires."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PEBEMPL_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="Work Period Code." key="false" length="4" name="PEBEMPL_WKPR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Work Period Code."/>
+      </column>
+      <column comment="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA." key="false" length="1" name="PEBEMPL_FLSA_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA."/>
+      </column>
+      <column comment="Statistics Canada Grouping Code." key="false" length="2" name="PEBEMPL_STGR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics Canada Grouping Code."/>
+      </column>
+      <column comment="Number of days the employee worked in Canada." key="false" length="3" name="PEBEMPL_DAYS_IN_CANADA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of days the employee worked in Canada."/>
+      </column>
+      <column comment="Identifies the type of individual who is receiving a 1042 statement." key="false" length="2" name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Identifies the type of individual who is receiving a 1042 statement."/>
+      </column>
+      <column comment="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other." key="false" length="1" name="PEBEMPL_INTERNAL_FT_PT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other."/>
+      </column>
+      <column comment="The district or division associated with an employee." key="false" length="3" name="PEBEMPL_DICD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The district or division associated with an employee."/>
+      </column>
+      <column comment="The employee group is a sub-category of the Employee Class." key="false" length="4" name="PEBEMPL_EGRP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee group is a sub-category of the Employee Class."/>
+      </column>
+      <column comment="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No." key="false" length="1" name="PEBEMPL_IPEDS_SOFT_MONEY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No."/>
+      </column>
+      <column comment="The first day that the employee worked." key="false" length="7" name="PEBEMPL_FIRST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The first day that the employee worked."/>
+      </column>
+      <column comment="The last day that the employee worked." key="false" length="7" name="PEBEMPL_LAST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The last day that the employee worked."/>
+      </column>
+      <column comment="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None." key="false" length="1" name="PEBEMPL_CALIF_PENSION_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None."/>
+      </column>
+      <column comment="Non-resident Service Code." key="false" length="4" name="PEBEMPL_NRSI_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Non-resident Service Code."/>
+      </column>
+      <column comment="Social security last name used in reporting." key="false" length="20" name="PEBEMPL_SSN_LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security last name used in reporting."/>
+      </column>
+      <column comment="Social security first name used in reporting." key="false" length="15" name="PEBEMPL_SSN_FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security first name used in reporting."/>
+      </column>
+      <column comment="Social security middle name used in reporting." key="false" length="15" name="PEBEMPL_SSN_MI" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security middle name used in reporting."/>
+      </column>
+      <column comment="Social security name suffix used in reporting." key="false" length="4" name="PEBEMPL_SSN_SUFFIX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security name suffix used in reporting."/>
+      </column>
+      <column comment="The Location to which the employee belongs." key="false" length="6" name="PEBEMPL_JBLN_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Location to which the employee belongs."/>
+      </column>
+      <column comment="The College to which the employee belongs." key="false" length="2" name="PEBEMPL_COLL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The College to which the employee belongs."/>
+      </column>
+      <column comment="The Campus to which the employee belongs." key="false" length="3" name="PEBEMPL_CAMP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Campus to which the employee belongs."/>
+      </column>
+      <column comment="The user who last created or updated the employee record." key="false" length="30" name="PEBEMPL_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The user who last created or updated the employee record."/>
+      </column>
+      <column comment="Source system that generated the data." key="false" length="30" name="PEBEMPL_DATA_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Source system that generated the data."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o." key="false" length="1" name="PEBEMPL_EW2_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated." key="false" length="7" name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator." key="false" length="30" name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator."/>
+      </column>
+      <column comment="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)" key="false" length="3" name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)"/>
+      </column>
+      <column comment="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N." key="false" length="1" name="PEBEMPL_IPEDS_MED_DENTAL_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)." key="false" length="1" name="PEBEMPL_ETAX_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated." key="false" length="7" name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator." key="false" length="30" name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator."/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.PEBEMPL_PIDM" name="PEBEMPL_PIDM" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PEBEMPL_EMPL_STATUS" name="PEBEMPL_EMPL_STATUS" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_COAS_CODE_HOME" name="PEBEMPL_COAS_CODE_HOME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ORGN_CODE_HOME" name="PEBEMPL_ORGN_CODE_HOME" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_COAS_CODE_DIST" name="PEBEMPL_COAS_CODE_DIST" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ORGN_CODE_DIST" name="PEBEMPL_ORGN_CODE_DIST" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ECLS_CODE" name="PEBEMPL_ECLS_CODE" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_LCAT_CODE" name="PEBEMPL_LCAT_CODE" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_BCAT_CODE" name="PEBEMPL_BCAT_CODE" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_FIRST_HIRE_DATE" name="PEBEMPL_FIRST_HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_CURRENT_HIRE_DATE" name="PEBEMPL_CURRENT_HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ADJ_SERVICE_DATE" name="PEBEMPL_ADJ_SERVICE_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_SENIORITY_DATE" name="PEBEMPL_SENIORITY_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_LREA_CODE" name="PEBEMPL_LREA_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_LOA_BEG_DATE" name="PEBEMPL_LOA_BEG_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_LOA_END_DATE" name="PEBEMPL_LOA_END_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_TREA_CODE" name="PEBEMPL_TREA_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_TERM_DATE" name="PEBEMPL_TERM_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_I9_FORM_IND" name="PEBEMPL_I9_FORM_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_I9_DATE" name="PEBEMPL_I9_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_I9_EXPIRE_DATE" name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ACTIVITY_DATE" name="PEBEMPL_ACTIVITY_DATE" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_WKPR_CODE" name="PEBEMPL_WKPR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_FLSA_IND" name="PEBEMPL_FLSA_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_STGR_CODE" name="PEBEMPL_STGR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_DAYS_IN_CANADA" name="PEBEMPL_DAYS_IN_CANADA" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PEBEMPL_1042_RECIPIENT_CD" name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_INTERNAL_FT_PT_IND" name="PEBEMPL_INTERNAL_FT_PT_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_DICD_CODE" name="PEBEMPL_DICD_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_EGRP_CODE" name="PEBEMPL_EGRP_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_IPEDS_SOFT_MONEY_IND" name="PEBEMPL_IPEDS_SOFT_MONEY_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_FIRST_WORK_DATE" name="PEBEMPL_FIRST_WORK_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_LAST_WORK_DATE" name="PEBEMPL_LAST_WORK_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_CALIF_PENSION_IND" name="PEBEMPL_CALIF_PENSION_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_NRSI_CODE" name="PEBEMPL_NRSI_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_SSN_LAST_NAME" name="PEBEMPL_SSN_LAST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_SSN_FIRST_NAME" name="PEBEMPL_SSN_FIRST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_SSN_MI" name="PEBEMPL_SSN_MI" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_SSN_SUFFIX" name="PEBEMPL_SSN_SUFFIX" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_JBLN_CODE" name="PEBEMPL_JBLN_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_COLL_CODE" name="PEBEMPL_COLL_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_CAMP_CODE" name="PEBEMPL_CAMP_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_USER_ID" name="PEBEMPL_USER_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_DATA_ORIGIN" name="PEBEMPL_DATA_ORIGIN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_EW2_CONSENT_IND" name="PEBEMPL_EW2_CONSENT_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_EW2_CONSENT_DATE" name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_EW2_CONSENT_USER_ID" name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_IPEDS_PRIMARY_FUNCTION" name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_IPEDS_MED_DENTAL_IND" name="PEBEMPL_IPEDS_MED_DENTAL_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ETAX_CONSENT_IND" name="PEBEMPL_ETAX_CONSENT_IND" type="id_String"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ETAX_CONSENT_DATE" name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PEBEMPL_ETAX_CONSENT_USER_ID" name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PEBEMPL_PIDM" type="id_BigDecimal"/>
+        <mapperTableEntries name="PEBEMPL_EMPL_STATUS" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_COAS_CODE_HOME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_ORGN_CODE_HOME" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_COAS_CODE_DIST" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_ORGN_CODE_DIST" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_ECLS_CODE" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_LCAT_CODE" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_BCAT_CODE" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_FIRST_HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_CURRENT_HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_ADJ_SERVICE_DATE" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_SENIORITY_DATE" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_LREA_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_LOA_BEG_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_LOA_END_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_TREA_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_TERM_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_I9_FORM_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_I9_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_ACTIVITY_DATE" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_WKPR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_FLSA_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_STGR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_DAYS_IN_CANADA" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_INTERNAL_FT_PT_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_DICD_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_EGRP_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_IPEDS_SOFT_MONEY_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_FIRST_WORK_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_LAST_WORK_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_CALIF_PENSION_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_NRSI_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_SSN_LAST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_SSN_FIRST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_SSN_MI" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_SSN_SUFFIX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_JBLN_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_COLL_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_CAMP_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_USER_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_DATA_ORIGIN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_EW2_CONSENT_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_IPEDS_MED_DENTAL_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_ETAX_CONSENT_IND" type="id_String"/>
+        <mapperTableEntries name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;urbrptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;urbrptdb.admin.uillinois.edu&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DSQAST01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;DSQAST01&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;PAYROLL&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;infuser&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:E0pFoqNruNuXUASOLIoNFpCdv0QKHzXWu3hbhUGvXvctSr6ODMvmAu0isYZOsQ=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;PEBEMPL&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_cW2HoFlREe2LkplUhNyjEQ - PEBEMPL"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_LBZakFlYEe2LkplUhNyjEQ - PEBEMPL"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_PIDM"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EMPL_STATUS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COAS_CODE_HOME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ORGN_CODE_HOME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COAS_CODE_DIST"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ORGN_CODE_DIST"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ECLS_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LCAT_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_BCAT_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FIRST_HIRE_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CURRENT_HIRE_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ADJ_SERVICE_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SENIORITY_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LREA_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LOA_BEG_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LOA_END_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_TREA_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_TERM_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_FORM_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_I9_EXPIRE_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ACTIVITY_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_WKPR_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FLSA_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_STGR_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DAYS_IN_CANADA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_1042_RECIPIENT_CD"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_INTERNAL_FT_PT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DICD_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EGRP_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_SOFT_MONEY_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_FIRST_WORK_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_LAST_WORK_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CALIF_PENSION_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_NRSI_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_LAST_NAME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_FIRST_NAME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_MI"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_SSN_SUFFIX"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_JBLN_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_COLL_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_CAMP_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_DATA_ORIGIN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_EW2_CONSENT_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_PRIMARY_FUNCTION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_IPEDS_MED_DENTAL_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PEBEMPL_ETAX_CONSENT_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="PEBEMPL" name="tDBOutput_1">
+      <column comment="Internal Identification number of person." key="true" length="8" name="PEBEMPL_PIDM" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Identification number of person."/>
+      </column>
+      <column comment="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated." key="false" length="1" name="PEBEMPL_EMPL_STATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated."/>
+      </column>
+      <column comment="The Home Chart of Accounts Code for the employee." key="false" length="1" name="PEBEMPL_COAS_CODE_HOME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Chart of Accounts Code for the employee."/>
+      </column>
+      <column comment="The Home Organization code of the employee." key="false" length="6" name="PEBEMPL_ORGN_CODE_HOME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Organization code of the employee."/>
+      </column>
+      <column comment="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed." key="false" length="1" name="PEBEMPL_COAS_CODE_DIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed."/>
+      </column>
+      <column comment="The organization code used for document distribution." key="false" length="6" name="PEBEMPL_ORGN_CODE_DIST" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The organization code used for document distribution."/>
+      </column>
+      <column comment="The employee grouping to which the employee belongs." key="false" length="2" name="PEBEMPL_ECLS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee grouping to which the employee belongs."/>
+      </column>
+      <column comment="The leave category to which the employee belongs." key="false" length="2" name="PEBEMPL_LCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The leave category to which the employee belongs."/>
+      </column>
+      <column comment="The benefit category to which the employee belongs." key="false" length="2" name="PEBEMPL_BCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The benefit category to which the employee belongs."/>
+      </column>
+      <column comment="The date the employee was first hired." key="false" length="7" name="PEBEMPL_FIRST_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the employee was first hired."/>
+      </column>
+      <column comment="The employees current date of hire." key="false" length="7" name="PEBEMPL_CURRENT_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The employees current date of hire."/>
+      </column>
+      <column comment="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal." key="false" length="7" name="PEBEMPL_ADJ_SERVICE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal."/>
+      </column>
+      <column comment="Date that establishes service and can be used for leave accrual." key="false" length="7" name="PEBEMPL_SENIORITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date that establishes service and can be used for leave accrual."/>
+      </column>
+      <column comment="A code identifying the reason for the leave of absence of the employee." key="false" length="2" name="PEBEMPL_LREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="A code identifying the reason for the leave of absence of the employee."/>
+      </column>
+      <column comment="The begin date of a leave of absence for the employee." key="false" length="7" name="PEBEMPL_LOA_BEG_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The begin date of a leave of absence for the employee."/>
+      </column>
+      <column comment="The anticipated end date for an employee's leave of absence." key="false" length="7" name="PEBEMPL_LOA_END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The anticipated end date for an employee's leave of absence."/>
+      </column>
+      <column comment="Code used to identify the reason of termination." key="false" length="2" name="PEBEMPL_TREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Code used to identify the reason of termination."/>
+      </column>
+      <column comment="Termination date of the employee." key="false" length="7" name="PEBEMPL_TERM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Termination date of the employee."/>
+      </column>
+      <column comment="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None." key="false" length="1" name="PEBEMPL_I9_FORM_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None."/>
+      </column>
+      <column comment="The date immigration information was received." key="false" length="7" name="PEBEMPL_I9_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date immigration information was received."/>
+      </column>
+      <column comment="The date the immigration information expires." key="false" length="7" name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the immigration information expires."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PEBEMPL_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="Work Period Code." key="false" length="4" name="PEBEMPL_WKPR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Work Period Code."/>
+      </column>
+      <column comment="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA." key="false" length="1" name="PEBEMPL_FLSA_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA."/>
+      </column>
+      <column comment="Statistics Canada Grouping Code." key="false" length="2" name="PEBEMPL_STGR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics Canada Grouping Code."/>
+      </column>
+      <column comment="Number of days the employee worked in Canada." key="false" length="3" name="PEBEMPL_DAYS_IN_CANADA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of days the employee worked in Canada."/>
+      </column>
+      <column comment="Identifies the type of individual who is receiving a 1042 statement." key="false" length="2" name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Identifies the type of individual who is receiving a 1042 statement."/>
+      </column>
+      <column comment="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other." key="false" length="1" name="PEBEMPL_INTERNAL_FT_PT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other."/>
+      </column>
+      <column comment="The district or division associated with an employee." key="false" length="3" name="PEBEMPL_DICD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The district or division associated with an employee."/>
+      </column>
+      <column comment="The employee group is a sub-category of the Employee Class." key="false" length="4" name="PEBEMPL_EGRP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee group is a sub-category of the Employee Class."/>
+      </column>
+      <column comment="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No." key="false" length="1" name="PEBEMPL_IPEDS_SOFT_MONEY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No."/>
+      </column>
+      <column comment="The first day that the employee worked." key="false" length="7" name="PEBEMPL_FIRST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The first day that the employee worked."/>
+      </column>
+      <column comment="The last day that the employee worked." key="false" length="7" name="PEBEMPL_LAST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The last day that the employee worked."/>
+      </column>
+      <column comment="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None." key="false" length="1" name="PEBEMPL_CALIF_PENSION_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None."/>
+      </column>
+      <column comment="Non-resident Service Code." key="false" length="4" name="PEBEMPL_NRSI_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Non-resident Service Code."/>
+      </column>
+      <column comment="Social security last name used in reporting." key="false" length="20" name="PEBEMPL_SSN_LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security last name used in reporting."/>
+      </column>
+      <column comment="Social security first name used in reporting." key="false" length="15" name="PEBEMPL_SSN_FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security first name used in reporting."/>
+      </column>
+      <column comment="Social security middle name used in reporting." key="false" length="15" name="PEBEMPL_SSN_MI" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security middle name used in reporting."/>
+      </column>
+      <column comment="Social security name suffix used in reporting." key="false" length="4" name="PEBEMPL_SSN_SUFFIX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security name suffix used in reporting."/>
+      </column>
+      <column comment="The Location to which the employee belongs." key="false" length="6" name="PEBEMPL_JBLN_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Location to which the employee belongs."/>
+      </column>
+      <column comment="The College to which the employee belongs." key="false" length="2" name="PEBEMPL_COLL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The College to which the employee belongs."/>
+      </column>
+      <column comment="The Campus to which the employee belongs." key="false" length="3" name="PEBEMPL_CAMP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Campus to which the employee belongs."/>
+      </column>
+      <column comment="The user who last created or updated the employee record." key="false" length="30" name="PEBEMPL_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The user who last created or updated the employee record."/>
+      </column>
+      <column comment="Source system that generated the data." key="false" length="30" name="PEBEMPL_DATA_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Source system that generated the data."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o." key="false" length="1" name="PEBEMPL_EW2_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated." key="false" length="7" name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator." key="false" length="30" name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator."/>
+      </column>
+      <column comment="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)" key="false" length="3" name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)"/>
+      </column>
+      <column comment="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N." key="false" length="1" name="PEBEMPL_IPEDS_MED_DENTAL_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)." key="false" length="1" name="PEBEMPL_ETAX_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated." key="false" length="7" name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator." key="false" length="30" name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator."/>
+      </column>
+      <additionalProperties key="Comment" value="Employee Base Table"/>
+    </metadata>
+    <metadata connector="REJECT" label="PEBEMPL" name="REJECT">
+      <column comment="Internal Identification number of person." key="true" length="8" name="PEBEMPL_PIDM" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Identification number of person."/>
+      </column>
+      <column comment="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated." key="false" length="1" name="PEBEMPL_EMPL_STATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The status of the employee. Valid values are A - Active, B - Leave without pay and with benefits, L -Leave without pay and without benefits, F - Leave with pay and with benefits, P - Leave with partial pay&#10; and with benefits, T - Terminated."/>
+      </column>
+      <column comment="The Home Chart of Accounts Code for the employee." key="false" length="1" name="PEBEMPL_COAS_CODE_HOME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Chart of Accounts Code for the employee."/>
+      </column>
+      <column comment="The Home Organization code of the employee." key="false" length="6" name="PEBEMPL_ORGN_CODE_HOME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Home Organization code of the employee."/>
+      </column>
+      <column comment="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed." key="false" length="1" name="PEBEMPL_COAS_CODE_DIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Chart of Accounts Code to which the employee's documents, such as checks, are distributed."/>
+      </column>
+      <column comment="The organization code used for document distribution." key="false" length="6" name="PEBEMPL_ORGN_CODE_DIST" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The organization code used for document distribution."/>
+      </column>
+      <column comment="The employee grouping to which the employee belongs." key="false" length="2" name="PEBEMPL_ECLS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee grouping to which the employee belongs."/>
+      </column>
+      <column comment="The leave category to which the employee belongs." key="false" length="2" name="PEBEMPL_LCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The leave category to which the employee belongs."/>
+      </column>
+      <column comment="The benefit category to which the employee belongs." key="false" length="2" name="PEBEMPL_BCAT_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The benefit category to which the employee belongs."/>
+      </column>
+      <column comment="The date the employee was first hired." key="false" length="7" name="PEBEMPL_FIRST_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the employee was first hired."/>
+      </column>
+      <column comment="The employees current date of hire." key="false" length="7" name="PEBEMPL_CURRENT_HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The employees current date of hire."/>
+      </column>
+      <column comment="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal." key="false" length="7" name="PEBEMPL_ADJ_SERVICE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date used to determine years of service for leave accrual if the First Hire Date and the Current Hire Date are not equal."/>
+      </column>
+      <column comment="Date that establishes service and can be used for leave accrual." key="false" length="7" name="PEBEMPL_SENIORITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date that establishes service and can be used for leave accrual."/>
+      </column>
+      <column comment="A code identifying the reason for the leave of absence of the employee." key="false" length="2" name="PEBEMPL_LREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="A code identifying the reason for the leave of absence of the employee."/>
+      </column>
+      <column comment="The begin date of a leave of absence for the employee." key="false" length="7" name="PEBEMPL_LOA_BEG_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The begin date of a leave of absence for the employee."/>
+      </column>
+      <column comment="The anticipated end date for an employee's leave of absence." key="false" length="7" name="PEBEMPL_LOA_END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The anticipated end date for an employee's leave of absence."/>
+      </column>
+      <column comment="Code used to identify the reason of termination." key="false" length="2" name="PEBEMPL_TREA_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Code used to identify the reason of termination."/>
+      </column>
+      <column comment="Termination date of the employee." key="false" length="7" name="PEBEMPL_TERM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Termination date of the employee."/>
+      </column>
+      <column comment="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None." key="false" length="1" name="PEBEMPL_I9_FORM_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicates whether or not immigration information has been received. Valid values are R - Received, N - Not received, T - Temporary, E - Exempt, NULL - None."/>
+      </column>
+      <column comment="The date immigration information was received." key="false" length="7" name="PEBEMPL_I9_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date immigration information was received."/>
+      </column>
+      <column comment="The date the immigration information expires." key="false" length="7" name="PEBEMPL_I9_EXPIRE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The date the immigration information expires."/>
+      </column>
+      <column comment="ACTIVITY DATE: Date when the record was inserted or last modified." key="false" length="7" name="PEBEMPL_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified."/>
+      </column>
+      <column comment="Work Period Code." key="false" length="4" name="PEBEMPL_WKPR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Work Period Code."/>
+      </column>
+      <column comment="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA." key="false" length="1" name="PEBEMPL_FLSA_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used for Fair Labor Standards Overtime compensation. Valid values are C - Cash, A - Accrual, N - No FLSA."/>
+      </column>
+      <column comment="Statistics Canada Grouping Code." key="false" length="2" name="PEBEMPL_STGR_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics Canada Grouping Code."/>
+      </column>
+      <column comment="Number of days the employee worked in Canada." key="false" length="3" name="PEBEMPL_DAYS_IN_CANADA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of days the employee worked in Canada."/>
+      </column>
+      <column comment="Identifies the type of individual who is receiving a 1042 statement." key="false" length="2" name="PEBEMPL_1042_RECIPIENT_CD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Identifies the type of individual who is receiving a 1042 statement."/>
+      </column>
+      <column comment="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other." key="false" length="1" name="PEBEMPL_INTERNAL_FT_PT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal Part Time/Full Time Indicator, used for EEO reporting. Valid values are F - Full-time, P - Part-time, O - Other."/>
+      </column>
+      <column comment="The district or division associated with an employee." key="false" length="3" name="PEBEMPL_DICD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The district or division associated with an employee."/>
+      </column>
+      <column comment="The employee group is a sub-category of the Employee Class." key="false" length="4" name="PEBEMPL_EGRP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The employee group is a sub-category of the Employee Class."/>
+      </column>
+      <column comment="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No." key="false" length="1" name="PEBEMPL_IPEDS_SOFT_MONEY_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS Soft Money Indicator. Valid values are Y - Yes, N - No."/>
+      </column>
+      <column comment="The first day that the employee worked." key="false" length="7" name="PEBEMPL_FIRST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The first day that the employee worked."/>
+      </column>
+      <column comment="The last day that the employee worked." key="false" length="7" name="PEBEMPL_LAST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="The last day that the employee worked."/>
+      </column>
+      <column comment="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None." key="false" length="1" name="PEBEMPL_CALIF_PENSION_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="California Pension Indicator. Valid values are B - STRS/PERS member, E - PERS retiree, N - Non member, P - PERS member, R - STRS retiree, S - STRS member, T - STRS/PERS retiree, NULL - None."/>
+      </column>
+      <column comment="Non-resident Service Code." key="false" length="4" name="PEBEMPL_NRSI_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Non-resident Service Code."/>
+      </column>
+      <column comment="Social security last name used in reporting." key="false" length="20" name="PEBEMPL_SSN_LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security last name used in reporting."/>
+      </column>
+      <column comment="Social security first name used in reporting." key="false" length="15" name="PEBEMPL_SSN_FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security first name used in reporting."/>
+      </column>
+      <column comment="Social security middle name used in reporting." key="false" length="15" name="PEBEMPL_SSN_MI" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security middle name used in reporting."/>
+      </column>
+      <column comment="Social security name suffix used in reporting." key="false" length="4" name="PEBEMPL_SSN_SUFFIX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Social security name suffix used in reporting."/>
+      </column>
+      <column comment="The Location to which the employee belongs." key="false" length="6" name="PEBEMPL_JBLN_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Location to which the employee belongs."/>
+      </column>
+      <column comment="The College to which the employee belongs." key="false" length="2" name="PEBEMPL_COLL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The College to which the employee belongs."/>
+      </column>
+      <column comment="The Campus to which the employee belongs." key="false" length="3" name="PEBEMPL_CAMP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The Campus to which the employee belongs."/>
+      </column>
+      <column comment="The user who last created or updated the employee record." key="false" length="30" name="PEBEMPL_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="The user who last created or updated the employee record."/>
+      </column>
+      <column comment="Source system that generated the data." key="false" length="30" name="PEBEMPL_DATA_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Source system that generated the data."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o." key="false" length="1" name="PEBEMPL_EW2_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT INDICATOR: Indicator to identify the employee has consented to receive the W-2 electronically.  Valid values are (Y)es or (N)o.  Default value is (N)o."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated." key="false" length="7" name="PEBEMPL_EW2_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT DATE: This field identifies the most recent date the Electronic W-2 Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator." key="false" length="30" name="PEBEMPL_EW2_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC W-2 CONSENT USER ID: The unique identification of the user who last updated the Electronic W-2 Consent Indicator."/>
+      </column>
+      <column comment="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)" key="false" length="3" name="PEBEMPL_IPEDS_PRIMARY_FUNCTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS PRIMARY FUNCTION: Field to select the primary function for the PERIPED report. Valid values are: None (N), Primarily Instruction (PI), Primarily Research (PR), Primarily Public Service (PS), Instruction combined with Research/Public Service (IRP)"/>
+      </column>
+      <column comment="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N." key="false" length="1" name="PEBEMPL_IPEDS_MED_DENTAL_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="IPEDS MEDICAL AND DENTAL INDICATOR: Indicator determines where the person is reported for the PERIPED report. Valid values are: Y = Yes and reported under the Medical/Dental section. N = No and reported under the Non-medical section. The default is N."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)." key="false" length="1" name="PEBEMPL_ETAX_CONSENT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT INDICATOR: Indicator to identify the employee has consented to receive the tax form electronically.  Valid values are Y and N (Default)."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated." key="false" length="7" name="PEBEMPL_ETAX_CONSENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT DATE: This field identifies the most recent date the Electronic Tax Form Consent Indicator was updated."/>
+      </column>
+      <column comment="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator." key="false" length="30" name="PEBEMPL_ETAX_CONSENT_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="ELECTRONIC TAX FORM CONSENT USER ID: The unique identification of the user who last updated the Electronic Tax Form Consent Indicator."/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="Comment" value="Employee Base Table"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="row2" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ec10c574-aa6a-499a-9f59-86a78bd32420"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QGJkrdCAjK5v6FP3v7qI4jvYEzYAjlNyyZws3bwi0IZstfXfznVXbq2lSGQicB6zFSAWV/7xxWXR&#13;
+WXVbXsYOjA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b74c67bd-de2b-4add-b8af-8dcba482b29b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8bAaJkugJbQDfsWpY00+oTyVL3YX5vGXIbRPeIAybbcL3AqAPYf5g/ayxqUQMlxBvEDYC1DgxpLk&#13;
+CijWzxT4gw==</DigestValue></Reference></SignedInfo><SignatureValue>BwHyTnq/WYR04XM/jsuGbSmZO9AqDfq/WMLVqOlu+QbAdXZZsTlZPQoMLo4TkeZsXoNX4iqBJzEK&#13;
+GpmfOj96mu6mZSeV5Wi3bhSeIG/rPnd46Ihg4UEBglFf5nAOwzET5IZkq11imdK9WQUpFNrMulRg&#13;
+qKXPzFhZUHJNQCW5uhNKA4GeJvHgBp75EZKK5DghE3X4zNH4nbiIqilTc3CWHyxB8EzXtsqyif6t&#13;
+222KQvuaRt1rVtA8NUTdqsaph/51Pqne+BImK4iR68MVAgmhnZDg0pxPEd64xY0qRwV5GZ2qaFEr&#13;
+qj/+CiHWc59EPh5O+PNA+rXZsO4s+qPcr/PY2A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b74c67bd-de2b-4add-b8af-8dcba482b29b" Target="#_ec10c574-aa6a-499a-9f59-86a78bd32420"><Timestamp>2022-11-01 13:58:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
