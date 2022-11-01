@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Oracle with service name" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:sihSa1GoIk3FEpaqAyB51CNJ0EJrinDQt2Fxhur7SfNG6XQZeAGto+9oroE=" Port="1521" ProductId="ORACLE" SID="DSQAST01" SQLMode="false" ServerName="urbrptdb.admin.uillinois.edu" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=urbrptdb.admin.uillinois.edu)(port=1521))(connect_data=(service_name=DSQAST01)))" UiSchema="" Username="infuser" dataPackage="_TktHIFlSEe2LkplUhNyjEQ _TkwxgFlSEe2LkplUhNyjEQ _TkwxgVlSEe2LkplUhNyjEQ _TkwxgllSEe2LkplUhNyjEQ _Tkwxg1lSEe2LkplUhNyjEQ _TkwxhFlSEe2LkplUhNyjEQ _TkwxhVlSEe2LkplUhNyjEQ _TkwxhllSEe2LkplUhNyjEQ _Tkwxh1lSEe2LkplUhNyjEQ _TkwxiFlSEe2LkplUhNyjEQ _TkwxiVlSEe2LkplUhNyjEQ _TkwxillSEe2LkplUhNyjEQ _Tkwxi1lSEe2LkplUhNyjEQ _TkwxjFlSEe2LkplUhNyjEQ _TkwxjVlSEe2LkplUhNyjEQ _TkwxjllSEe2LkplUhNyjEQ _Tkwxj1lSEe2LkplUhNyjEQ _TkwxkFlSEe2LkplUhNyjEQ _TkwxkVlSEe2LkplUhNyjEQ _TkwxkllSEe2LkplUhNyjEQ _Tkwxk1lSEe2LkplUhNyjEQ _TkwxlFlSEe2LkplUhNyjEQ _TkwxlVlSEe2LkplUhNyjEQ _TkwxlllSEe2LkplUhNyjEQ _Tkwxl1lSEe2LkplUhNyjEQ _TkwxmFlSEe2LkplUhNyjEQ _TkwxmVlSEe2LkplUhNyjEQ _TkwxmllSEe2LkplUhNyjEQ _Tkwxm1lSEe2LkplUhNyjEQ _TkwxnFlSEe2LkplUhNyjEQ _TkwxnVlSEe2LkplUhNyjEQ _TkwxnllSEe2LkplUhNyjEQ _Tkwxn1lSEe2LkplUhNyjEQ _TkwxoFlSEe2LkplUhNyjEQ _TkwxoVlSEe2LkplUhNyjEQ _TkwxollSEe2LkplUhNyjEQ _Tkwxo1lSEe2LkplUhNyjEQ _TkwxpFlSEe2LkplUhNyjEQ _TkwxpVlSEe2LkplUhNyjEQ _TkwxpllSEe2LkplUhNyjEQ _Tkwxp1lSEe2LkplUhNyjEQ _TkwxqFlSEe2LkplUhNyjEQ _TkwxqVlSEe2LkplUhNyjEQ _TkwxqllSEe2LkplUhNyjEQ _Tkwxq1lSEe2LkplUhNyjEQ _TkwxrFlSEe2LkplUhNyjEQ _TkwxrVlSEe2LkplUhNyjEQ _TkwxrllSEe2LkplUhNyjEQ _Tkwxr1lSEe2LkplUhNyjEQ _TkwxsFlSEe2LkplUhNyjEQ _TkwxsVlSEe2LkplUhNyjEQ _TkwxsllSEe2LkplUhNyjEQ _Tkwxs1lSEe2LkplUhNyjEQ _TkwxtFlSEe2LkplUhNyjEQ _TkwxtVlSEe2LkplUhNyjEQ _TkwxtllSEe2LkplUhNyjEQ _Tkwxt1lSEe2LkplUhNyjEQ _TkwxuFlSEe2LkplUhNyjEQ _TkwxuVlSEe2LkplUhNyjEQ _TkwxullSEe2LkplUhNyjEQ _Tkwxu1lSEe2LkplUhNyjEQ _TkwxvFlSEe2LkplUhNyjEQ _TkwxvVlSEe2LkplUhNyjEQ _TkwxvllSEe2LkplUhNyjEQ _Tkwxv1lSEe2LkplUhNyjEQ _TkwxwFlSEe2LkplUhNyjEQ _TkwxwVlSEe2LkplUhNyjEQ _TkwxwllSEe2LkplUhNyjEQ _Tkwxw1lSEe2LkplUhNyjEQ _TkwxxFlSEe2LkplUhNyjEQ _TkwxxVlSEe2LkplUhNyjEQ _TkwxxllSEe2LkplUhNyjEQ _Tkwxx1lSEe2LkplUhNyjEQ _TkwxyFlSEe2LkplUhNyjEQ _TkwxyVlSEe2LkplUhNyjEQ _TkwxyllSEe2LkplUhNyjEQ _Tkwxy1lSEe2LkplUhNyjEQ _TkwxzFlSEe2LkplUhNyjEQ _TkwxzVlSEe2LkplUhNyjEQ _TkwxzllSEe2LkplUhNyjEQ _Tkwxz1lSEe2LkplUhNyjEQ _Tkwx0FlSEe2LkplUhNyjEQ _Tkwx0VlSEe2LkplUhNyjEQ _Tkwx0llSEe2LkplUhNyjEQ _Tkwx01lSEe2LkplUhNyjEQ _Tkwx1FlSEe2LkplUhNyjEQ _Tkwx1VlSEe2LkplUhNyjEQ _Tkwx1llSEe2LkplUhNyjEQ _Tkwx11lSEe2LkplUhNyjEQ _Tkwx2FlSEe2LkplUhNyjEQ _TkxYkFlSEe2LkplUhNyjEQ _TkxYkVlSEe2LkplUhNyjEQ _TkxYkllSEe2LkplUhNyjEQ _TkxYk1lSEe2LkplUhNyjEQ _TkxYlFlSEe2LkplUhNyjEQ _TkxYlVlSEe2LkplUhNyjEQ _TkxYlllSEe2LkplUhNyjEQ _TkxYl1lSEe2LkplUhNyjEQ _TkxYmFlSEe2LkplUhNyjEQ _TkxYmVlSEe2LkplUhNyjEQ _TkxYmllSEe2LkplUhNyjEQ _TkxYm1lSEe2LkplUhNyjEQ _TkxYnFlSEe2LkplUhNyjEQ _TkxYnVlSEe2LkplUhNyjEQ _TkxYnllSEe2LkplUhNyjEQ _TkxYn1lSEe2LkplUhNyjEQ _TkxYoFlSEe2LkplUhNyjEQ _TkxYoVlSEe2LkplUhNyjEQ _TkxYollSEe2LkplUhNyjEQ _TkxYo1lSEe2LkplUhNyjEQ _TkxYpFlSEe2LkplUhNyjEQ _TkxYpVlSEe2LkplUhNyjEQ _TkxYpllSEe2LkplUhNyjEQ _TkxYp1lSEe2LkplUhNyjEQ _TkxYqFlSEe2LkplUhNyjEQ _TkxYqVlSEe2LkplUhNyjEQ _TkxYqllSEe2LkplUhNyjEQ _TkxYq1lSEe2LkplUhNyjEQ _TkxYrFlSEe2LkplUhNyjEQ _TkxYrVlSEe2LkplUhNyjEQ _TkxYrllSEe2LkplUhNyjEQ _TkxYr1lSEe2LkplUhNyjEQ _TkxYsFlSEe2LkplUhNyjEQ _TkxYsVlSEe2LkplUhNyjEQ _TkxYsllSEe2LkplUhNyjEQ _TkxYs1lSEe2LkplUhNyjEQ _TkxYtFlSEe2LkplUhNyjEQ _TkxYtVlSEe2LkplUhNyjEQ _TkxYtllSEe2LkplUhNyjEQ _TkxYt1lSEe2LkplUhNyjEQ _TkxYuFlSEe2LkplUhNyjEQ _TkxYuVlSEe2LkplUhNyjEQ _TkxYullSEe2LkplUhNyjEQ _TkxYu1lSEe2LkplUhNyjEQ _TkxYvFlSEe2LkplUhNyjEQ _TkxYvVlSEe2LkplUhNyjEQ _TkxYvllSEe2LkplUhNyjEQ _TkxYv1lSEe2LkplUhNyjEQ _TkxYwFlSEe2LkplUhNyjEQ _TkxYwVlSEe2LkplUhNyjEQ _TkxYwllSEe2LkplUhNyjEQ _TkxYw1lSEe2LkplUhNyjEQ _TkxYxFlSEe2LkplUhNyjEQ _TkxYxVlSEe2LkplUhNyjEQ _TkxYxllSEe2LkplUhNyjEQ _TkxYx1lSEe2LkplUhNyjEQ _TkxYyFlSEe2LkplUhNyjEQ _TkxYyVlSEe2LkplUhNyjEQ" dbVersionString="ORACLE_18" id="_LBZakFlYEe2LkplUhNyjEQ" label="STAGING" name="STAGING" supportNLS="false" xmi:id="_LCzIwFlYEe2LkplUhNyjEQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_TODhsVlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_TQLooFlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_TQULgFlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_TQULgVlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_TQULgllSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_TQULg1lSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_TQULhFlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_TQULhVlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_TWqrIFlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production&#10;Version 19.16.0.0.0" xmi:id="_TWqrIVlSEe2LkplUhNyjEQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_TWqrIllSEe2LkplUhNyjEQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="infuser" xmi:id="_TODhsllSEe2LkplUhNyjEQ"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_L5ybIFlYEe2LkplUhNyjEQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ABAYLESS" xmi:id="_TktHIFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ACMPBELL" xmi:id="_TkwxgFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AFM" xmi:id="_TkwxgVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AHALLOCK" xmi:id="_TkwxgllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AIMADMIN" xmi:id="_Tkwxg1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AMANDALA" xmi:id="_TkwxhFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ANALYTICS" xmi:id="_TkwxhVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ANONYMOUS" xmi:id="_TkwxhllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APPQOSSYS" xmi:id="_Tkwxh1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APPWXDS" xmi:id="_TkwxiFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APP_AITS_DBLINK" xmi:id="_TkwxiVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APP_DSGATEWAY" xmi:id="_TkwxillSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APP_K2_TIME" xmi:id="_Tkwxi1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APP_KNIME_AITS" xmi:id="_TkwxjFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="APP_TABLEAU" xmi:id="_TkwxjVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AREND" xmi:id="_TkwxjllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AREND_EM" xmi:id="_Tkwxj1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AUDSYS" xmi:id="_TkwxkFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="AVADK" xmi:id="_TkwxkVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="BANSECR" xmi:id="_TkwxkllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="BOS" xmi:id="_Tkwxk1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="BOUSER" xmi:id="_TkwxlFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="CMERLE" xmi:id="_TkwxlVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="CMSMAFBE" xmi:id="_TkwxlllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="CODEBOOK" xmi:id="_Tkwxl1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="CONTRACTS" xmi:id="_TkwxmFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="CONTRACTS_XML" xmi:id="_TkwxmVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DATA_VAL" xmi:id="_TkwxmllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DBSFWUSER" xmi:id="_Tkwxm1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DBSNMP" xmi:id="_TkwxnFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DBUSER" xmi:id="_TkwxnVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DIP" xmi:id="_TkwxnllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DM_APPL" xmi:id="_Tkwxn1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DM_FIN" xmi:id="_TkwxoFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DM_HR" xmi:id="_TkwxoVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DM_STU" xmi:id="_TkwxollSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DPT" xmi:id="_Tkwxo1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSDQA1" xmi:id="_TkwxpFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSETL" xmi:id="_TkwxpVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSIA" xmi:id="_TkwxpllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSMETRIC" xmi:id="_Tkwxp1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSSDE" xmi:id="_TkwxqFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DSWEB" xmi:id="_TkwxqVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="DUMMY" xmi:id="_TkwxqllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EAS" xmi:id="_Tkwxq1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EAS1" xmi:id="_TkwxrFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ECOSUSER" xmi:id="_TkwxrVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EDW" xmi:id="_TkwxrllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EDWBKP" xmi:id="_Tkwxr1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EDWPC" xmi:id="_TkwxsFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EDWSTREAMS" xmi:id="_TkwxsVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EHANSEN4" xmi:id="_TkwxsllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="EM10GC" xmi:id="_Tkwxs1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="FAISMGR" xmi:id="_TkwxtFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="FCPWEB" xmi:id="_TkwxtVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="FIMSMGR" xmi:id="_TkwxtllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="FINTEM" xmi:id="_Tkwxt1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GENERAL" xmi:id="_TkwxuFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GGADMIN" xmi:id="_TkwxuVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GGSYS" xmi:id="_TkwxullSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GIBSONC" xmi:id="_Tkwxu1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GPCARD" xmi:id="_TkwxvFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GSMADMIN_INTERNAL" xmi:id="_TkwxvVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GSMCATUSER" xmi:id="_TkwxvllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="GSMUSER" xmi:id="_Tkwxv1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="HARNESS" xmi:id="_TkwxwFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="HIRETOUCH" xmi:id="_TkwxwVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="HRFE" xmi:id="_TkwxwllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="HRFE_ROUTE_SEC" xmi:id="_Tkwxw1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="HR_RETIREEREHIRE" xmi:id="_TkwxxFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="IAM_UTIL" xmi:id="_TkwxxVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ICRDC" xmi:id="_TkwxxllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFHRFE" xmi:id="_Tkwxx1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFOED" xmi:id="_TkwxyFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFOR" xmi:id="_TkwxyVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFTEMP" xmi:id="_TkwxyllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFTRACE" xmi:id="_Tkwxy1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="INFUSER" xmi:id="_TkwxzFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="IPAY" xmi:id="_TkwxzVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="JCOON" xmi:id="_TkwxzllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="KIMCLAPP" xmi:id="_Tkwxz1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="KJE" xmi:id="_Tkwx0FlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="KMWOLF3" xmi:id="_Tkwx0VlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="KUALI" xmi:id="_Tkwx0llSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="LFOGARTY" xmi:id="_Tkwx01lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="LKP" xmi:id="_Tkwx1FlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="MBOLLER" xmi:id="_Tkwx1VlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="MCWONDER" xmi:id="_Tkwx1llSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="OPS$ORACLE" xmi:id="_Tkwx11lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ORACLE" xmi:id="_Tkwx2FlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ORGSECURITY" xmi:id="_TkxYkFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="ORSTED" xmi:id="_TkxYkVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="OSSS" xmi:id="_TkxYkllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="OTGMGR" xmi:id="_TkxYk1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="OUTLN" xmi:id="_TkxYlFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PANDA" xmi:id="_TkxYlVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PAYROLL" xmi:id="_TkxYlllSEe2LkplUhNyjEQ">
+    <ownedElement comment="Benefit/Deduction Calculation Rule Table" id="_T8OK0Fn4Ee2LkplUhNyjEQ" label="PTRBDCA" name="PTRBDCA" tableType="TABLE" xmi:id="_T8PY8Fn4Ee2LkplUhNyjEQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Benefit/Deduction Calculation Rule Table" xmi:id="_T8PY8Vn4Ee2LkplUhNyjEQ"/>
+      <feature comment="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." key="true" label="PTRBDCA_CODE" length="3" name="PTRBDCA_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PY8ln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="BENEFIT/DEDUCTION CODE: A unique three-character code used to identify the benefit/deduction defined." xmi:id="_T8PY81n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PY9Fn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PY9Vn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="SHORT DESCRIPTION: A brief description of the benefit/deduction." label="PTRBDCA_SHORT_DESC" length="8" name="PTRBDCA_SHORT_DESC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PY9ln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="SHORT DESCRIPTION: A brief description of the benefit/deduction." xmi:id="_T8PY91n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PY-Fn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PY-Vn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="LONG DESCRIPTION: Full description of the benefit/deduction." label="PTRBDCA_LONG_DESC" length="30" name="PTRBDCA_LONG_DESC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PY-ln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="LONG DESCRIPTION: Full description of the benefit/deduction." xmi:id="_T8PY-1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PY_Fn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PY_Vn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." label="PTRBDCA_PRIORITY" length="2" name="PTRBDCA_PRIORITY" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_T8PY_ln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PRIORITY CODE: The priority code indicates the order in which the deduction should be processed.  For example, it is important that a deduction which is exempt from taxes, such as a 401K contribution, be calculated before the tax." xmi:id="_T8PY_1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZAFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" numericPrecisionRadix="10" xmi:id="_T8PZAVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." label="PTRBDCA_CALC_RULE" length="2" name="PTRBDCA_CALC_RULE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZAln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CALCULATION RULE: Defines how a benefit/deduction is processed by the system.  The Calc Rule selected also determines how the Deduction Form (PDADEDN) and the Deduction Set-up Form (PDABDSU) function." xmi:id="_T8PZA1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZBFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZBVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." label="PTRBDCA_WEEK1_IND" length="1" name="PTRBDCA_WEEK1_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZBln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD 1 INDICATOR: Indicates if the benefit/deduction should be processedin the first pay period of the month." xmi:id="_T8PZB1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZCFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZCVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." label="PTRBDCA_WEEK2_IND" length="1" name="PTRBDCA_WEEK2_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZCln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD 2 INDICATOR: Indicates if the benefit/deduction should be processedin the second pay period of the month." xmi:id="_T8PZC1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZDFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZDVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." label="PTRBDCA_WEEK3_IND" length="1" name="PTRBDCA_WEEK3_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZDln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD 3 INDICATOR: Indicates if the benefit/deduction should be processedin the third pay period of the month." xmi:id="_T8PZD1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZEFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZEVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." label="PTRBDCA_WEEK4_IND" length="1" name="PTRBDCA_WEEK4_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZEln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD 4 INDICATOR: Indicates if the benefit/deduction should be processedduring the fourth pay period of the month." xmi:id="_T8PZE1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZFFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZFVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." label="PTRBDCA_WEEK5_IND" length="1" name="PTRBDCA_WEEK5_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZFln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD 5 INDICATOR: Indicates if the benefit/deduction should be processedduring the fifth pay period of the month." xmi:id="_T8PZF1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZGFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZGVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_AMT1_IND" length="1" name="PTRBDCA_AMT1_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZGln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 1 INDICATOR: Indicates if the entry of Amount 1 is required, optional, or not allowed, on the Employee Deduction Form (PDADEDN), and/or the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZG1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZHFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZHVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." label="PTRBDCA_AMT2_IND" length="1" name="PTRBDCA_AMT2_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZHln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 2 INDICATOR: Indicates if the entry of amount 2 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form." xmi:id="_T8PZH1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZIFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZIVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" label="PTRBDCA_AMT3_IND" length="1" name="PTRBDCA_AMT3_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZIln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 3 INDICATOR: Indicates if entry in Amount 3 is required, optional, or not allowed on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU)" xmi:id="_T8PZI1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZJFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZJVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." label="PTRBDCA_AMT4_IND" length="1" name="PTRBDCA_AMT4_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZJln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 4 INDICATOR: Indicates if entry in Amount 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional, or not allowed." xmi:id="_T8PZJ1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZKFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZKVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_AMT1_TITLE" length="8" name="PTRBDCA_AMT1_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZKln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 1 TITLE: The title associated with Amount 1.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZK1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZLFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZLVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_AMT2_TITLE" length="8" name="PTRBDCA_AMT2_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZLln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 2 TITLE: The Title associated with Amount 2.  Will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZL1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZMFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZMVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_AMT3_TITLE" length="8" name="PTRBDCA_AMT3_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZMln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 3 TITLE: The Title associated with Amount 3.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZM1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZNFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZNVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_AMT4_TITLE" length="8" name="PTRBDCA_AMT4_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZNln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 4 TITLE: The Title associated with Amount 4.  The Title will default tothe Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZN1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZOFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZOVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." label="PTRBDCA_OPTION1_IND" length="1" name="PTRBDCA_OPTION1_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZOln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 1 INDICATOR: Indicates if entry in Option 1 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) will be required, optional or not allowed." xmi:id="_T8PZO1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZPFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZPVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." label="PTRBDCA_OPTION2_IND" length="1" name="PTRBDCA_OPTION2_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZPln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 2 INDICATOR: Indicates if entry in Option 2 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Set up Form (PDABDSU) is required, optional, or not allowed." xmi:id="_T8PZP1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZQFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZQVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." label="PTRBDCA_OPTION3_IND" length="1" name="PTRBDCA_OPTION3_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZQln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 3 INDICATOR: Indicates if entry in Option 3 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDADEDN) is required,optional, or not allowed." xmi:id="_T8PZQ1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZRFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZRVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." label="PTRBDCA_OPTION4_IND" length="1" name="PTRBDCA_OPTION4_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZRln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 4 INDICATOR: Indicates if entry in Option 4 on the Employee Deduction Form (PDADEDN) and/or the Employee Deduction Setup Form (PDABDSU) is required,optional, or not allowed." xmi:id="_T8PZR1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZSFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZSVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." label="PTRBDCA_OPTION5_IND" length="1" name="PTRBDCA_OPTION5_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZSln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 5 INDICATOR: Indicates if entry in Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU) is required, optional, or not allowed." xmi:id="_T8PZS1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZTFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZTVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." label="PTRBDCA_OPTION1_TITLE" length="8" name="PTRBDCA_OPTION1_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZTln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 1 TITLE: The title associated with Option 1.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Set up Form (PDABDSU)." xmi:id="_T8PZT1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZUFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZUVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_OPTION2_TITLE" length="8" name="PTRBDCA_OPTION2_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZUln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 2 TITLE: The title associated with Option 2.  The Title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZU1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZVFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZVVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." label="PTRBDCA_OPTION3_TITLE" length="8" name="PTRBDCA_OPTION3_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZVln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 3 TITLE: The title associated with Option 3.  The Title will default to the Employee Deduction Setup Form (PDABDSU) and the Employee Deduction Form (PDADEDN)." xmi:id="_T8PZV1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZWFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZWVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." label="PTRBDCA_OPTION4_TITLE" length="8" name="PTRBDCA_OPTION4_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZWln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 4 TITLE: The Title associated with Option 4.  The title will default to the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form(PDABDSU)." xmi:id="_T8PZW1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZXFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZXVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." label="PTRBDCA_OPTION5_TITLE" length="8" name="PTRBDCA_OPTION5_TITLE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZXln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 5 TITLE: The Title associated with Option 5 on the Employee Deduction Form (PDADEDN) and the Employee Deduction Setup Form (PDABDSU)." xmi:id="_T8PZX1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZYFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZYVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." label="PTRBDCA_GROSS_REPORT_IND" length="1" name="PTRBDCA_GROSS_REPORT_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZYln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="GROSS REPORTING INDICATOR: Indicates if applicable gross is to be maintained for the deduction/benefit." xmi:id="_T8PZY1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZZFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZZVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." label="PTRBDCA_BENEFIT_IND" length="1" name="PTRBDCA_BENEFIT_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZZln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="BENEFIT INDICATOR: Indicates if the employer portion of the benefit is processed when an employee is on leave with benefits." xmi:id="_T8PZZ1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZaFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZaVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." label="PTRBDCA_TXCD_CODE" length="8" name="PTRBDCA_TXCD_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZaln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="TAX INDICATOR: Indicates the taxing authority associated with this benefit/ deduction code." xmi:id="_T8PZa1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZbFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZbVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." label="PTRBDCA_TAX_TYPE_IND" length="1" name="PTRBDCA_TAX_TYPE_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZbln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="DEDUCTION TYPE: A sytem defined indicator which identifies the type of benefit/deduction being defined." xmi:id="_T8PZb1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZcFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZcVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." label="PTRBDCA_OVERLOAD_IND" length="1" name="PTRBDCA_OVERLOAD_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZcln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OVERLOAD INDICATOR: Indicates if overload pay (pay froma non-primary job) should be included when processing this benefit/deuction." xmi:id="_T8PZc1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZdFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZdVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." label="PTRBDCA_ARREAR_IND" length="1" name="PTRBDCA_ARREAR_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZdln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ARREAR INDICATOR: Indicates how a deduction is processed if the pay amount drops below the amount of the deduction." xmi:id="_T8PZd1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZeFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8PZeVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="ACTIVITY DATE: Date when the record was inserted or last modified." label="PTRBDCA_ACTIVITY_DATE" length="7" name="PTRBDCA_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_T8PZeln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified." xmi:id="_T8PZe1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZfFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_T8PZfVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." label="PTRBDCA_BDTY_CODE" length="2" name="PTRBDCA_BDTY_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZfln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="BENEFIT/DEDUCTION TYPE CODE: Type of the benefit/deduction can be validated from the PTVBDTY Form." xmi:id="_T8PZf1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZgFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZgVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." label="PTRBDCA_AMT1_DESC" length="30" name="PTRBDCA_AMT1_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZgln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 1 DESCRIPTION: The long description associated with Amount 1." xmi:id="_T8PZg1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZhFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZhVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." label="PTRBDCA_AMT2_DESC" length="30" name="PTRBDCA_AMT2_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZhln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 2 DESCRIPTION: The long description associated with Amount 2." xmi:id="_T8PZh1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZiFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZiVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." label="PTRBDCA_AMT3_DESC" length="30" name="PTRBDCA_AMT3_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZiln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 3 DESCRIPTION: The long description associated with Amount 3." xmi:id="_T8PZi1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZjFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZjVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." label="PTRBDCA_AMT4_DESC" length="30" name="PTRBDCA_AMT4_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZjln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 4 DESCRIPTION: The long description associated with Amount 4." xmi:id="_T8PZj1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8PZkFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8PZkVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="1099 CODE: 1099-R Distribution Code associated with the deduction code." label="PTRBDCA_1099_CODE" length="2" name="PTRBDCA_1099_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8PZkln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="1099 CODE: 1099-R Distribution Code associated with the deduction code." xmi:id="_T8PZk1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAAFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAAVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="FLAT AMOUNT INDICATOR; Obsolete" label="PTRBDCA_FLAT_AMT_IND" length="1" name="PTRBDCA_FLAT_AMT_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAAln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="FLAT AMOUNT INDICATOR; Obsolete" xmi:id="_T8QAA1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QABFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QABVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="START MONTH: First month of fiscal year for deduction/benefit purposes." label="PTRBDCA_YTD_START_MONTH" length="2" name="PTRBDCA_YTD_START_MONTH" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_T8QABln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="START MONTH: First month of fiscal year for deduction/benefit purposes." xmi:id="_T8QAB1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QACFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QACVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." label="PTRBDCA_WEB_DESC" length="100" name="PTRBDCA_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QACln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="WEB DESCRIPTION: Long description of deduction code to be displayed on the Web." xmi:id="_T8QAC1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QADFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QADVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." label="PTRBDCA_WEB_INFO_URL" length="100" name="PTRBDCA_WEB_INFO_URL" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QADln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="WEB INFO URL: URL to be linked to from Web for more information about the deduction code." xmi:id="_T8QAD1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAEFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAEVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." label="PTRBDCA_OPTION1_WEB_DESC" length="100" name="PTRBDCA_OPTION1_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAEln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 1 WEB DESCRIPTION:User-defined title for Option 1 on the web." xmi:id="_T8QAE1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAFFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAFVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." label="PTRBDCA_OPTION2_WEB_DESC" length="100" name="PTRBDCA_OPTION2_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAFln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 2 WEB DESCRIPTION:User-defined title for Option 2 on the web." xmi:id="_T8QAF1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAGFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAGVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." label="PTRBDCA_OPTION3_WEB_DESC" length="100" name="PTRBDCA_OPTION3_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAGln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 3 WEB DESCRIPTION:User-defined title for Option 3 on the web." xmi:id="_T8QAG1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAHFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAHVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." label="PTRBDCA_OPTION4_WEB_DESC" length="100" name="PTRBDCA_OPTION4_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAHln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 4 WEB DESCRIPTION:User-defined title for Option 4 on the web." xmi:id="_T8QAH1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAIFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAIVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." label="PTRBDCA_OPTION5_WEB_DESC" length="100" name="PTRBDCA_OPTION5_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAIln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="OPTION 5 WEB DESCRIPTION:User-defined title for Option 5 on the web." xmi:id="_T8QAI1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAJFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAJVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." label="PTRBDCA_AMT1_WEB_DESC" length="100" name="PTRBDCA_AMT1_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAJln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 1 WEB DESCRIPTION: User-defined title for Amount 1 on the web." xmi:id="_T8QAJ1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAKFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAKVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." label="PTRBDCA_AMT2_WEB_DESC" length="100" name="PTRBDCA_AMT2_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAKln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 2 WEB DESCRIPTION: User-defined title for Amount 2 on the web." xmi:id="_T8QAK1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QALFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QALVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." label="PTRBDCA_AMT3_WEB_DESC" length="100" name="PTRBDCA_AMT3_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QALln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 3 WEB DESCRIPTION: User-defined title for Amount 3 on the web." xmi:id="_T8QAL1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAMFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAMVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." label="PTRBDCA_AMT4_WEB_DESC" length="100" name="PTRBDCA_AMT4_WEB_DESC" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAMln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="AMOUNT 4 WEB DESCRIPTION: User-defined title for Amount 4 on the web." xmi:id="_T8QAM1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QANFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QANVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature comment="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." label="PTRBDCA_BDCL_CODE" length="8" name="PTRBDCA_BDCL_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QANln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="COMBINED LIMIT CODE:  A code that defines combined annual limits for a benefit/deduction." xmi:id="_T8QAN1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAOFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_T8QAOVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature label="PTRBDCA_BENEFICIARY_IND" length="1" name="PTRBDCA_BENEFICIARY_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAOln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_T8QAO1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAPFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8QAPVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+      <feature label="PTRBDCA_COVERAGE_IND" length="1" name="PTRBDCA_COVERAGE_IND" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_T8QAPln4Ee2LkplUhNyjEQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_T8QAP1n4Ee2LkplUhNyjEQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_T8QAQFn4Ee2LkplUhNyjEQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_T8QAQVn4Ee2LkplUhNyjEQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PAYROLLDELTA" xmi:id="_TkxYl1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PCARDS_ILL_DBO" xmi:id="_TkxYmFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PIPORTAL" xmi:id="_TkxYmVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PKAMENGA" xmi:id="_TkxYmllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PORTAL" xmi:id="_TkxYm1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="POSNCTL" xmi:id="_TkxYnFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="POSNCTLDELTA" xmi:id="_TkxYnVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PRMS" xmi:id="_TkxYnllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="PRODAGIO" xmi:id="_TkxYn1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="QUEST" xmi:id="_TkxYoFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="REDOTRANSPORT" xmi:id="_TkxYoVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="REMOTE_SCHEDULER_AGENT" xmi:id="_TkxYollSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="RGETTY" xmi:id="_TkxYo1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="RVM" xmi:id="_TkxYpFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SAC" xmi:id="_TkxYpVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SATURN" xmi:id="_TkxYpllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SATURNDELTA" xmi:id="_TkxYp1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SDM" xmi:id="_TkxYqFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SECAPP" xmi:id="_TkxYqVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SJADAMS" xmi:id="_TkxYqllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SLATE" xmi:id="_TkxYq1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SQLTXADMIN" xmi:id="_TkxYrFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SQLTXPLAIN" xmi:id="_TkxYrVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SRBROWN2" xmi:id="_TkxYrllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SRCFILES" xmi:id="_TkxYr1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SSA" xmi:id="_TkxYsFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="STUDENTREGISTRATION" xmi:id="_TkxYsVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYS" xmi:id="_TkxYsllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYS$UMF" xmi:id="_TkxYs1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYSBACKUP" xmi:id="_TkxYtFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYSDG" xmi:id="_TkxYtVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYSKM" xmi:id="_TkxYtllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYSRAC" xmi:id="_TkxYt1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="SYSTEM" xmi:id="_TkxYuFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TABLEAU_REPO" xmi:id="_TkxYuVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TAISMGR" xmi:id="_TkxYullSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TBICKERS" xmi:id="_TkxYu1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TCERVEN" xmi:id="_TkxYvFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TDX" xmi:id="_TkxYvVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TREVOR" xmi:id="_TkxYvllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="TSADLER" xmi:id="_TkxYv1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="UI2JWSAITSWS" xmi:id="_TkxYwFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="UIC_HMS_EDW" xmi:id="_TkxYwVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="UILLINOIS" xmi:id="_TkxYwllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="UIUC_GRADRECORD" xmi:id="_TkxYw1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="UIUC_HSNG" xmi:id="_TkxYxFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="VENDORDB" xmi:id="_TkxYxVlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="VSL" xmi:id="_TkxYxllSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="VWILEY" xmi:id="_TkxYx1lSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="XDB" xmi:id="_TkxYyFlSEe2LkplUhNyjEQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_LCzIwFlYEe2LkplUhNyjEQ" name="XS$NULL" xmi:id="_TkxYyVlSEe2LkplUhNyjEQ"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d5e74ef4-1063-48f4-9510-c0c035e32aeb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>f4C0Jkf2vKwpQouSWHcr3jukokFki+Ywkul76/fcJdWE48egWuUAohYxalhoi73vo7jN4OLbCHA4&#13;
+dUubwoL8KA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3bca56c2-bf81-49d5-9c94-fc6da12906cb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SbLv37XqFT0uVt8cezUBRJxTcdGXbEvKdTMz+kdJqsOsMhMO5wufqd2B5/tSPU3ZULmLNc6s7Gyd&#13;
+rs1H4UNyBw==</DigestValue></Reference></SignedInfo><SignatureValue>YKba3F/uphsBNeO6YXJBRS3pXhQvywQFx3rujFe8kna8uqSWsnpVbI4jbMn4rTbs/Q7VpvAPrUDI&#13;
+47V3r5UCM4jdWkrRYO9x46OEfLU5ltB29G0VPIavE3MzAje6U5QB8Vax3RZ5pH0TD7512cusPJ4S&#13;
+5IpGzTu71JKL9U3QN6LsXWbC6jZTVfr27kDuAGR3ahfyChrGAk94ImS5X/YRBcr/Xuwhg4E247Lw&#13;
+MSLcnS6XCwmVEdAPuWQPB36wgI5VmmuPJDLRs4Td1WohXWcZe9ZDNbcK/MxDIogj4xbTFzsgSOhI&#13;
+/pgmIYzVlmaKX9l3MxCCi+TepExZIx+f0QaEtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3bca56c2-bf81-49d5-9c94-fc6da12906cb" Target="#_d5e74ef4-1063-48f4-9510-c0c035e32aeb"><Timestamp>2022-11-01 15:17:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
