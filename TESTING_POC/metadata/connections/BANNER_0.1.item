@@ -757,14 +757,192 @@
         <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_siaevFmjEe2LkplUhNyjEQ"/>
       </feature>
     </ownedElement>
+    <ownedElement comment="Payroll Calendar Rule Table" id="_fkTUsFpaEe2gksj6OuOfGg" label="PTRCALN" name="PTRCALN" tableType="TABLE" xmi:id="_fkaCYFpaEe2gksj6OuOfGg" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Payroll Calendar Rule Table" xmi:id="_fkaCYVpaEe2gksj6OuOfGg"/>
+      <feature comment="CALENDAR YEAR: The calendar year in which the pay period falls" key="true" label="PTRCALN_YEAR" length="4" name="PTRCALN_YEAR" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCYlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CALENDAR YEAR: The calendar year in which the pay period falls" xmi:id="_fkaCY1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCZFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_fkaCZVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="PAY IDENTIFICATION CODE: Identification code for this payroll." key="true" label="PTRCALN_PICT_CODE" length="2" name="PTRCALN_PICT_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCZlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY IDENTIFICATION CODE: Identification code for this payroll." xmi:id="_fkaCZ1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCaFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_fkaCaVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="PAY NUMBER: The pay of the year." key="true" label="PTRCALN_PAYNO" length="3" name="PTRCALN_PAYNO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_fkaCalpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY NUMBER: The pay of the year." xmi:id="_fkaCa1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCbFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" numericPrecisionRadix="10" xmi:id="_fkaCbVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="PAY PERIOD START DATE: The start date of the pay period." label="PTRCALN_START_DATE" length="7" name="PTRCALN_START_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCblpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD START DATE: The start date of the pay period." xmi:id="_fkaCb1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCcFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_fkaCcVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="PAY PERIOD END DATE: The end date of the pay period." label="PTRCALN_END_DATE" length="7" name="PTRCALN_END_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCclpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY PERIOD END DATE: The end date of the pay period." xmi:id="_fkaCc1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCdFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_fkaCdVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK DATE: The date which will appear on the pay document." label="PTRCALN_CHECK_DATE" length="7" name="PTRCALN_CHECK_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCdlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK DATE: The date which will appear on the pay document." xmi:id="_fkaCd1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCeFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_fkaCeVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="PAY OF THE MONTH: Indicates the pay of the month." label="PTRCALN_PAY_OF_MONTH_IND" length="1" name="PTRCALN_PAY_OF_MONTH_IND" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_fkaCelpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="PAY OF THE MONTH: Indicates the pay of the month." xmi:id="_fkaCe1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCfFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" numericPrecisionRadix="10" xmi:id="_fkaCfVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="FISCAL YEAR: If the pay period being defined crosses a fiscal year boundry,   the entry of the fiscal year in this field will result in the total payroll   being charged to the year entered." label="PTRCALN_FISC_CODE" length="4" name="PTRCALN_FISC_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCflpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="FISCAL YEAR: If the pay period being defined crosses a fiscal year boundry,   the entry of the fiscal year in this field will result in the total payroll   being charged to the year entered." xmi:id="_fkaCf1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCgFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCgVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="ACTIVITY DATE: Date when the record was inserted or last modified." label="PTRCALN_ACTIVITY_DATE" length="7" name="PTRCALN_ACTIVITY_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCglpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ACTIVITY DATE: Date when the record was inserted or last modified." xmi:id="_fkaCg1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaChFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_fkaChVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED EMP TOTALS INDICATOR " label="PTRCALN_ETOT_IND" length="1" name="PTRCALN_ETOT_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaChlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED EMP TOTALS INDICATOR " xmi:id="_fkaCh1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCiFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCiVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED JOB TOTALS INDICATOR " label="PTRCALN_JTOT_IND" length="1" name="PTRCALN_JTOT_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCilpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED JOB TOTALS INDICATOR " xmi:id="_fkaCi1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCjFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCjVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED DEDN TOTALS INDICATOR " label="PTRCALN_DTOT_IND" length="1" name="PTRCALN_DTOT_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCjlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED DEDN TOTALS INDICATOR " xmi:id="_fkaCj1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCkFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCkVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED ARREARS/BONDS INDICATOR " label="PTRCALN_DEDN_IND" length="1" name="PTRCALN_DEDN_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCklpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED ARREARS/BONDS INDICATOR " xmi:id="_fkaCk1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaClFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaClVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED JOBS COUNT INDICATOR " label="PTRCALN_JOBS_IND" length="1" name="PTRCALN_JOBS_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCllpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED JOBS COUNT INDICATOR " xmi:id="_fkaCl1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCmFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCmVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED DEFER PAY INDICATOR " label="PTRCALN_DEFER_IND" length="1" name="PTRCALN_DEFER_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCmlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED DEFER PAY INDICATOR " xmi:id="_fkaCm1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCnFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCnVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED TERMINATIONS INDICATOR " label="PTRCALN_TERM_IND" length="1" name="PTRCALN_TERM_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCnlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED TERMINATIONS INDICATOR " xmi:id="_fkaCn1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCoFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCoVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="UPDATE COMMITTED EMP LEAVES INDICATOR " label="PTRCALN_LEAV_IND" length="1" name="PTRCALN_LEAV_IND" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaColpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="UPDATE COMMITTED EMP LEAVES INDICATOR " xmi:id="_fkaCo1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCpFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCpVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Statistics year for Canadian systems." label="PTRCALN_STATS_CANADA_YEAR" length="4" name="PTRCALN_STATS_CANADA_YEAR" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_fkaCplpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Statistics year for Canadian systems." xmi:id="_fkaCp1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCqFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCqVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Statistics month for Canadian systems." label="PTRCALN_STATS_CANADA_MONTH" length="3" name="PTRCALN_STATS_CANADA_MONTH" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCqlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Statistics month for Canadian systems." xmi:id="_fkaCq1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCrFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCrVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Time Entry Start Date" label="PTRCALN_TIME_ENTRY_START_DATE" length="7" name="PTRCALN_TIME_ENTRY_START_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCrlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Time Entry Start Date" xmi:id="_fkaCr1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCsFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCsVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="END DATE: Time Entry End Date" label="PTRCALN_TIME_ENTRY_END_DATE" length="7" name="PTRCALN_TIME_ENTRY_END_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCslpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="END DATE: Time Entry End Date" xmi:id="_fkaCs1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCtFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCtVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CUTOFF TIME: Time Entry Cutoff Time: Time in which data entry terminates." label="PTRCALN_TIME_ENTRY_CUTOFF_TIME" length="4" name="PTRCALN_TIME_ENTRY_CUTOFF_TIME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCtlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CUTOFF TIME: Time Entry Cutoff Time: Time in which data entry terminates." xmi:id="_fkaCt1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCuFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCuVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="Date until which the user has access to view on the web information for the pay period." label="PTRCALN_WEB_VIEW_CUTOFF_DATE" length="7" name="PTRCALN_WEB_VIEW_CUTOFF_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCulpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Date until which the user has access to view on the web information for the pay period." xmi:id="_fkaCu1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCvFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCvVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="LEAVE REPORT START DATE: the start date for which an employee may post their leave time." label="PTRCALN_LEAV_REPT_START_DATE" length="7" name="PTRCALN_LEAV_REPT_START_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCvlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="LEAVE REPORT START DATE: the start date for which an employee may post their leave time." xmi:id="_fkaCv1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCwFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCwVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="LEAVE REPORT END DATE: the last date for which an employee may post their leave time." label="PTRCALN_LEAV_REPT_END_DATE" length="7" name="PTRCALN_LEAV_REPT_END_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCwlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="LEAVE REPORT END DATE: the last date for which an employee may post their leave time." xmi:id="_fkaCw1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCxFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCxVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="LEAVE REPORT CUTOFF TIME: the time of the day in which Leave Reporting entry terminates." label="PTRCALN_LEAV_REPT_CUTOFF_TIME" length="4" name="PTRCALN_LEAV_REPT_CUTOFF_TIME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCxlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="LEAVE REPORT CUTOFF TIME: the time of the day in which Leave Reporting entry terminates." xmi:id="_fkaCx1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCyFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCyVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="LEAVE REPORT WEB VIEW CUT OFF DATE: Date until which the user has access to view on the web information for the Leave Reporting period." label="PTRCALN_LR_WEBVIEW_CUTOFF_DATE" length="7" name="PTRCALN_LR_WEBVIEW_CUTOFF_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_fkaCylpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="LEAVE REPORT WEB VIEW CUT OFF DATE: Date until which the user has access to view on the web information for the Leave Reporting period." xmi:id="_fkaCy1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaCzFpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaCzVpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE1: Message to be printed on employee's pay stub with PHPCHEK or PHPCHKL." label="PTRCALN_CHECK_MESG_LINE1" length="40" name="PTRCALN_CHECK_MESG_LINE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaCzlpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE1: Message to be printed on employee's pay stub with PHPCHEK or PHPCHKL." xmi:id="_fkaCz1paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC0FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaC0VpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE2: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE2" length="40" name="PTRCALN_CHECK_MESG_LINE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaC0lpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE2: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkaC01paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC1FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaC1VpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE3: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE3" length="40" name="PTRCALN_CHECK_MESG_LINE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaC1lpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE3: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkaC11paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC2FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaC2VpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE 4: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE4" length="40" name="PTRCALN_CHECK_MESG_LINE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaC2lpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE 4: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkaC21paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC3FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaC3VpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE 5: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE5" length="40" name="PTRCALN_CHECK_MESG_LINE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaC3lpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE 5: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkaC31paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC4FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkaC4VpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE 6: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE6" length="40" name="PTRCALN_CHECK_MESG_LINE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkaC4lpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE 6: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkaC41paEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkaC5FpaEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkapcFpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE 7: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE7" length="40" name="PTRCALN_CHECK_MESG_LINE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkapcVpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE 7: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkapclpaEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkapc1paEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkapdFpaEe2gksj6OuOfGg"/>
+      </feature>
+      <feature comment="CHECK MESSAGE LINE 8: Message to be printed on employee's pay stub with PHPCHKL." label="PTRCALN_CHECK_MESG_LINE8" length="40" name="PTRCALN_CHECK_MESG_LINE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_fkapdVpaEe2gksj6OuOfGg" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="CHECK MESSAGE LINE 8: Message to be printed on employee's pay stub with PHPCHKL." xmi:id="_fkapdlpaEe2gksj6OuOfGg"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_fkapd1paEe2gksj6OuOfGg" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_fkapeFpaEe2gksj6OuOfGg"/>
+      </feature>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ff0903d8-c877-4d6e-86d8-ca9d1e3f0462"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4ENcwGv2Dy7UXTwSYauK1vQG+UwcsRy6W+9boQ3yCbH2iqZmoGk86zMs3FyKNvIOnsdYC6Wz09Db&#13;
-xz1/qE09kQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_142dc40c-e8d3-4ca4-b2c3-3e870045b782"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3H33jU+OFiki6H2I14fOY1RK3NAvJ1PSWQxkiP4utvhU1/fwI7miPqz8dDhmlu5ew+3D3I1KRnK/&#13;
-KRyLYMwK6w==</DigestValue></Reference></SignedInfo><SignatureValue>pFWjBKCkincT8tv/H4ziosQbLzazGO/ve+af5LlE6RXzLwd5Vwg4CvaaT5aotPqbBkfQ0dWe8bqF&#13;
-IAINlK4ec9Z3TD7icPn8a5UqiNL6DpTeGICyL/aeu1+fA/bRBKQgtgrs1iDiNWBNjw4DN3rFHx+X&#13;
-kOFeswce9eWe+1t/j9bZFmEYYrqth4+XFmJFBzdqgrKkNDQToH2myfp30IMN9PMTfZfz/K2D1zGr&#13;
-vrJ22yjWUO1qLseAwaxe2jXY5ozRONLaZ8TNzyp82Hi8HX9j2U9YZC6TQNTzhhHNTGzJDufTVkZe&#13;
-hqrewHtShsYWgeiTwfNgad/LwSPa+mr0IyO2wQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5c981d96-6136-40bc-b6bf-32997c03b3cc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S7L8XZx1p3uxggA9lmjPAK6h6in1Pc8zsm12ObGoLeBo65TZqXuPhq2ExziDk42rzBuBfmNF6hEo&#13;
+2AibPpmMSQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa035683-413f-4bcc-81ca-ed570e55c0d0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IkPa04k4Xe1avDQjV9VsJVgLDjUZfSK3VykZWkzpofe2c2roiuSem8U0JdJob1e84tKO4G4SGVgz&#13;
+TnqCOIwTiw==</DigestValue></Reference></SignedInfo><SignatureValue>JJ2jIMwmo9SePoP9xeUcASVG31Hph14pnXeQR/0ULgusHVWSlKAHhl8fOMJUPWSZT9+mYFVqh8ld&#13;
+J9OHTg8lGXo0/5RgeaXge6B2FGZB7E6/5hZwJpaJ4moH34u9Hf5pIQNeNr3bWQ4YgFR2wSJFUIzd&#13;
+ZIneSyMphK2NiHYehJ49klRTfmm6G0bggUBc2NiaNUQxfkcA66OPwyhWkjX3WE8TXk0JOMjHCC6/&#13;
+ICmFSa7s8ccXW4zvJl8umTeUG+zAL/ZzMaY8ha8b5FTODKkwVQuiibjjBlIpN+f9Jyg8R7HDWY/0&#13;
+vI/aq81i85/HID4pjNeGwrggwqWOXi2RH0d1Bg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -786,4 +964,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_142dc40c-e8d3-4ca4-b2c3-3e870045b782" Target="#_ff0903d8-c877-4d6e-86d8-ca9d1e3f0462"><Timestamp>2022-11-01 20:41:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa035683-413f-4bcc-81ca-ed570e55c0d0" Target="#_5c981d96-6136-40bc-b6bf-32997c03b3cc"><Timestamp>2022-11-02 03:01:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
